@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>Edinburgh Perl Mongers - Book Review - Algorithms in a Nutshell</title>
+
+<link rel="stylesheet" href="http://edinburgh.pm.org/css/edinburgh-pm-org.css">
+
+<base="http://edinburgh.pm.org/">
+
+</head>
+
+
+<body>
+
+<div class="external-links">
+<a href="http://www.perl.com/" title="The Perl home page.">perl.com</a> ::
+<a href="http://cpan.perl.com/" title="Central Perl Archive Network.">CPAN</a> ::
+<a href="http://www.perl.org/ThePerlReview/" title="The Perl Review, the Perl Mongers' magazine.">The Perl Review</a> ::
+<a href="http://www.sysadminmag.com/tpj/" title="The Perl Journal, now part of Sys Admin magazine.">Perl Journal</a> ::
+<a href="http://www.perlmonks.org/" title="Seek enlightenment with the Perl Monks.">perlmonks.org</a> ::
+<a href="http://jobs.perl.org/" title="Find or post a Perl job.">perl jobs</a>
+</div>
+
+
+<img alt="Banner with image of Edinburgh Castle" src="/images/edinburgh-pm-org-banner.gif" width="535" height="91" border="0">
+
+<div class="navigation">
+<span class="blue-bold">You are here &gt;</span> <a href="http://edinburgh.pm.org/">edinburgh.pm</a> &gt; <a href="http://edinburgh.pm.org/book-reviews/">book reviews</a> &gt; algorithms in a nutshell</div>
+
+<p>
+
+<div class="content">
+
+<b class="header">Algorithms in a Nutshell</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>George T. Heineman, Gary Pollice &amp; Stanley Selkow</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-51624-X</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>October 2008</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>343</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;38.50</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Roger Spooner</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://oreilly.com/catalog/9780596516246/index.html">
+<img alt="Cover image for Algorithms in a Nutshell" src="/images/cover-for-algorithms-nutshell-180-270.gif" width="180" height="270">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+The short history of computer science has sparkled with some
+extraordinary insights into getting jobs done efficiently. In some ways
+those jobs are familiar, such as moving the maximum volume of stock from
+factories through distribution channels to shops. Or sorting a directory
+of names into alphabetical order. But the solutions that have been found
+in recent years are genuinely new, and interesting to read about.
+<p>
+This book takes us through the development of several classes of
+algorithms, such as from "sequential search", through "binary search" to
+"binary tree search" and a "hash based search". Similarly, it explores
+sorting into order, finding connected nodes in a graph, planning winning
+moves in a game, allowing a maximum flow through a network, and
+geometric problems like the closest points in a set to a new point. The
+algorithms are presented in order of complexity, building up each topic
+and explaining both the method and performance of each. Each one covers
+several pages, including a pseudo-code listing, an actual listing in a
+language like C++ or Java (supported by the full source code in an
+archive somewhere), performance statistics and a discussion. The
+building-up means that many of the algorithms presented are of little
+interest to practical implementors, however.
+<p>
+The authors are rightly proud of each page that summarises an algorithm.
+The pseudo code, although variable in style, is mostly very clear and
+easy to follow. Each algorithm is presented with a diagram demonstrating
+its progress in an example highlighting the key lines of code. The
+actual source code can be used if you're implementing it, but since most
+of the algorithms are presented to teach an approach, using them
+directly is not necessary. A few lines of pseudo code are too abstract,
+such as "find median value" or "find augmenting path".
+<p>
+One of the most interesting things about efficient algorithms is the way
+that they make simplifying assumptions about the data; perhaps that no
+two items in a set can be unique, or perhaps that data is stored in a
+balanced structure. Indeed the book begins with a case study of a memory
+leak analysis tool which was terribly slow to run. It used a tree to
+store the allocated blocks, but unfortunately the sequence in which
+blocks were assigned from the heap meant that this tree turned out more
+like a linked list!
+<p>
+That question of using the right data structures is hinted at
+repeatedly, and often enforced within the algorithms, but I felt that a
+programmer working with such problems could benefit from some further
+guidance through the initial steps of considering "what kind of
+operations will I want to perform on my data?". Getting the right
+structure, or caching intermediate results is often vital to efficient
+performance. The authors recognised this, but didn't help much with the
+decisions.
+<p>
+Performance is always discussed in terms of run-time and has been
+measured on just a desktop PC, and a really big PC. There are more
+embedded devices with relatively tiny resources in use, and a few
+important data-centre mainframes, which the authors disregard.
+<p>
+The balance of topics in the book seems to be aimed at a student
+revising algorithm design. But the lectures on floating point
+inequality, pointers, and the importance of freeing allocated memory,
+seem out of place. The statistics are not built on the strongest
+foundations (the methods and explanations are a bit suspect, and some
+graphs are difficult to read). Some terms are defined in detail, such as
+"secondary storage" whereas others are not, such as "median".
+<p>
+There are a few errors in diagrams, and an extraordinary non-sequiteur
+over the turn of a page, from user authentication to graph-spanning
+paths, which had me flipping the page several times to see if I had
+missed something. Although locally confusing, they didn't put me off my
+stride.
+<p>
+The key question that the book sets out to answer, of how to choose the
+best algorithm for a problem that needs to be delivered on Friday,
+remains somewhat elusive. There are few real-world examples of data sets
+that fit the algorithms described, and I felt that more space could have
+been given to a wider range of algorithms instead of the academic
+development of a single type of algorithm.
+<p>
+The book ends with an excellent couple of chapters; on the kind of
+assumptions you can make to convert your data into a well known case,
+and the "principles" that all software engineering with heavy duty
+algorithms should consider.
+<p>
+In summary, the book is strongest in its disciplined presentation of
+pseudo-code and structured sections answering the same questions about
+each topic. However, the ideal target audience for it would seem to be
+limited to students, rather than real software engineers.
+<p>
+
+</div>
+
+<p>
+
+<img width="520" height="3" alt="faded separator" src="/images/hr-336699-fade-long.gif">
+
+<div class="content">
+
+<p>
+
+Page maintained by <a href="mailto:owner-edinburgh-pm-list@pm.org">Rory Macdonald</a>
+<br>
+Last updated : Tue Feb 24 13:08:13 2009
+
+</div>
+
+</body>
+
+</html>
+

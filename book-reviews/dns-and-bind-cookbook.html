@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Edinburgh Perl Mongers - Book Review - DNS and BIND Cookbook</title>
+
+
+
+<link rel="stylesheet" href="http://edinburgh.pm.org/css/edinburgh-pm-org.css">
+
+<base="http://edinburgh.pm.org/">
+
+</head>
+
+<body>
+
+<div class="external-links">
+<a href="http://www.perl.com/" title="The Perl home page.">perl.com</a> ::
+<a href="http://cpan.perl.com/" title="Central Perl Archive Network.">CPAN</a> :: 
+<a href="http://www.perl.org/ThePerlReview/" title="The Perl Review, the Perl Mongers' magazine.">The Perl Review</a> ::
+<a href="http://www.sysadminmag.com/tpj/" title="The Perl Journal, now part of Sys Admin magazine.">Perl Journal</a> :: 
+<a href="http://www.perlmonks.org/" title="Seek enlightenment with the Perl Monks.">perlmonks.org</a> ::
+<a href="http://jobs.perl.org/" title="Find or post a Perl job.">perl jobs</a>
+</div>
+
+
+<img alt="Banner with image of Edinburgh Castle" src="/images/edinburgh-pm-org-banner.gif" border="0" height="91" width="535">
+
+<div class="navigation">
+<span class="blue-bold">You are here &gt;</span> <a href="http://edinburgh.pm.org/">edinburgh.pm</a> &gt; <a href="http://edinburgh.pm.org/book-reviews/">book reviews</a> &gt; dns and bind cookbook</div>
+
+<p>
+
+</p><div class="content">
+
+<b class="header">DNS and BIND Cookbook</b>
+
+<table class="booktable">
+<tbody><tr>
+
+<td>
+<table class="booktable">
+<tbody><tr>
+<td class="bookdetails">Author</td><td>Cricket Liu</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00410-9</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>October 2002</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>240</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>24.95 (paper)</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Alex Hazelwood</td>
+</tr>
+</tbody></table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/dnsbindckbk/">
+<img alt="Cover image for DNS and BIND Cookbook" src="/images/dns-and-bind-cookbook-cover.gif" height="236" width="180">
+</a>
+</td>
+
+</tr>
+</tbody></table>
+
+
+<p>
+First of let me just mention that the author seems to have had a bit of a
+Scrabble fixation and mentions this through out the book from time to time,
+this really has nothing to do with the quality of the contents but I thought
+I would mention it in case like me you have a morbid fear of the game...
+<p>
+As with all other O'Reilly cookbooks each chapter starts of with the simpler
+problem &amp; solutions leading to the more complex scenarios as you progress. I
+did find the level of problem being put forward to be very basic, almost too
+basic, I thought the idea of a cookbook was for the reader to have a working
+understanding of the source material, theory is not covered at all but from
+the level they start his book from they assume you know next to nothing.
+This may be seen as a good thing by some but in my opinion half the book is
+wasted with questions and answers that can easily be found on the web by
+doing a simple search.
+<p>
+The choice in chapters also took me back as well, a WHOLE chapter on MX
+records [Chapter 4] seems to me to be a bit extreme, to be fair the chapter
+is pretty short, but still there is not a great deal of subject matter to
+warrant this kind of attention. I think the space could have been used
+better with a chapter on typical examples of named.conf files or zone files.
+<p>
+Now that I have that out of my system, I can get to the plus side. Once you
+have got passed the initial pages to each chapter the subject matter starts
+to get pretty informative, the problems start approaching near "real world"
+and the solution become workable without having to find another scenario to
+cobble against. I was very happy to see a chapter dedicated to DNS Security
+a topic that many seasoned hostmaster seem to know nothing about and which
+should be covered in every 101 in DNS Theory.
+<p>
+Interoperability with windows and upgrading from BIND 8 to 9 was also a
+welcome [and often neglected] sight, this is not something you have to do
+very often so examples here were most interesting and helpful for the long
+term.
+<p>
+Here's a quick list of items that seemed close to "real world" usefulness.
+<p>
+<pre>
+Configuring a Name server to forward queries to another name server
+Allowing Dynamic updates
+Setting up DNS to pass MX traffic via a spam filter
+Finding out who is using you name server for queries
+Migrating from one domain name to another
+Changing your zones name servers
+Defining a TSIG Key
+Securing Zone Transfers
+Protecting a name server from Spoofing
+Configuring a DHCP server to update a BIND Name Server
+Finding Syntax errors in a named.conf file
+Looking up records with dig
+</pre>
+<p>
+<b>Summary</b>
+<p>
+I would recommend this book for someone with little DNS experience who needs
+a good jumping off point, It would also suit someone with Windows DNS
+experience making the jump to Linux and BIND.
+<p>
+Purely for the examples in setting up security I would still recommend the
+book for someone with average and above experience in BIND. I think that the
+subject matter maybe a little on the light side, It may only come off the
+shelf occasionally for the odd problem and it will mainly sit collect dust,
+but for those odd problems it may save you a lot of time.
+<p>
+
+<b>Table of contents</b>
+<p>
+<pre>
+Ch  1 : Getting Started
+Ch  2 : Zone Data
+Ch  3 : Bind Name Server Configuration
+Ch  4 : Electronic Mail
+Ch  5 : Bind Name Server Operations
+Ch  6 : Delegation and Registration
+Ch  7 : Security
+Ch  8 : Interoperability and Upgrading
+Ch  9 : Resolves and Programming
+Ch 10 : Logging and Troubleshooting
+Ch 11 : IPv6
+</pre>
+
+</div>
+<p>
+
+<img alt="faded separator" src="/images/hr-336699-fade-long.gif" height="3" width="520">
+
+</p><div class="content">
+<p>
+
+Page maintained by <a href="mailto:owner-edinburgh-pm-list@pm.org">Rory Macdonald</a>
+<br>
+Last updated : Tue Oct  3 19:15:07 BST 2006
+
+
+</p></div>
+<p class="flush">&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>Edinburgh Perl Mongers - Book Review - Intel Threading Building Blocks</title>
+
+<link rel="stylesheet" href="http://edinburgh.pm.org/css/edinburgh-pm-org.css">
+
+<base="http://edinburgh.pm.org/">
+
+</head>
+
+
+<body>
+
+<div class="external-links">
+<a href="http://www.perl.com/" title="The Perl home page.">perl.com</a> ::
+<a href="http://cpan.perl.com/" title="Central Perl Archive Network.">CPAN</a> ::
+<a href="http://www.perl.org/ThePerlReview/" title="The Perl Review, the Perl Mongers' magazine.">The Perl Review</a> ::
+<a href="http://www.sysadminmag.com/tpj/" title="The Perl Journal, now part of Sys Admin magazine.">Perl Journal</a> ::
+<a href="http://www.perlmonks.org/" title="Seek enlightenment with the Perl Monks.">perlmonks.org</a> ::
+<a href="http://jobs.perl.org/" title="Find or post a Perl job.">perl jobs</a>
+</div>
+
+
+<img alt="Banner with image of Edinburgh Castle" src="/images/edinburgh-pm-org-banner.gif" width="535" height="91" border="0">
+
+<div class="navigation">
+<span class="blue-bold">You are here &gt;</span> <a href="http://edinburgh.pm.org/">edinburgh.pm</a> &gt; <a href="http://edinburgh.pm.org/book-reviews/">book reviews</a> &gt; intel threading building blocks</div>
+
+<p>
+
+<div class="content">
+
+<b class="header">Intel Threading Building Blocks</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>James Reinders</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-51480-8</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>July 2007</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>332</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;21.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Andy Scott</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/9780596514808/">
+<img alt="Cover image for Intel Threading" src="/images/intel-threading-cover.gif" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+<b>Synopsis:</b>
+<p>
+Not for the neophyte. The material being covered was done in a manner
+that assumed a familiarity with underlying concepts. There were some
+useful pieces of information within the text but there were also some
+inaccuracies as well.
+<p>
+<b>Detail:</b>
+<p>
+Some of the information given seems to be technically incorrect or
+misleading. For instance the section "What Is A Thread" in Chapter 2
+is not strictly correct when applied to Linux; this system does not
+have threads in the scheme presented. There is a paragraph that
+starts:
+<p>
+ "Therefore, all modern operating systems support the subdivision of
+ processes into multiple threads of execution."
+<p>
+As a number Linux distributions still have no native thread concept
+but utilise lightweight processes this is a sweeping and technically
+incorrect statement. Yes threading packages do exist but they are by
+no means used exclusively.
+<p>
+The next area of information that glosses over some very technical
+information is the one that deals with cache aligned memory allocation
+in Chapter 6. The organisation of processor caches is highly
+architecture specific, so to include the following "The padding is
+typically 128 bytes" without reference to any silicon architectural
+implementation could be construed as dangerous. If information relating
+to lower levels of the hardware are to be given then they should be
+done so with very specific and concrete examples.
+<p>
+The reproduction of the class definitions within the text of the
+publication does not seem 100% relevant as should someone have this
+book they should also have the help files for the library to hand. Or,
+failing that, the actual header files themselves. The inclusion of one
+or two function signatures to show how to override them is a useful
+feature, as was done when illustrating what standard memory allocation
+routines to replace.
+<p>
+The examples covered a good range of how to apply the building blocks
+to a number of familiar problems. In fact it may have been far better
+had the book been structured to have more examples at the point of the
+introduction of a new concept or programming structure to fix it in
+the mind of the reader.
+<p>
+I realise that the book is "Intel Threading Building Blocks" and so a
+certain number of the points mentioned should have been implicit,
+e.g. processor architecture. However, I think that as the book raised
+these issues it should have been very careful to define its frame of
+reference.
+<p>
+Overall, while the book contained useful information I did not feel it
+covered enough outwith what is publicly available or with the building
+block library to make it useful in the medium to long term.
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Intel Threading Building Blocks
+
+Ch  1. Why Threading Building Blocks?
+Ch  2. Thinking Parallel
+Ch  3. Basic Algorithms
+Ch  4. Advanced Algorithms
+Ch  5. Containers
+Ch  6. Scalable Memory Allocation
+Ch  7. Mutual Exclusion
+Ch  8. Timing
+Ch  9. Task Scheduler
+Ch 10. Keys to Success
+Ch 11. Examples
+Ch 12. History and Related Projects
+</div>
+
+<p>
+
+<img width="520" height="3" alt="faded separator" src="/images/hr-336699-fade-long.gif">
+
+<div class="content">
+
+<p>
+
+Page maintained by <a href="mailto:owner-edinburgh-pm-list@pm.org">Rory Macdonald</a>
+<br>
+Last updated : Fri Dec 14 13:36:57 UTC 2007
+
+</div>
+
+</body>
+
+</html>
+

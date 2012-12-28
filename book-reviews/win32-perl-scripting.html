@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>Edinburgh Perl Mongers - Book Review - Win32 Perl Scripting: The Administrator's Handbook</title>
+
+<link rel="stylesheet" href="http://edinburgh.pm.org/css/edinburgh-pm-org.css">
+
+<base="http://edinburgh.pm.org/">
+
+</head>
+
+
+<body>
+
+<div class="external-links">
+<a href="http://www.perl.com/" title="The Perl home page.">perl.com</a> ::
+<a href="http://cpan.perl.com/" title="Central Perl Archive Network.">CPAN</a> :: 
+<a href="http://www.perl.org/ThePerlReview/" title="The Perl Review, the Perl Mongers' magazine.">The Perl Review</a> ::
+<a href="http://www.sysadminmag.com/tpj/" title="The Perl Journal, now part of Sys Admin magazine.">Perl Journal</a> :: 
+<a href="http://www.perlmonks.org/" title="Seek enlightenment with the Perl Monks.">perlmonks.org</a> ::
+<a href="http://jobs.perl.org/" title="Find or post a Perl job.">perl jobs</a>
+</div>
+
+
+<img alt="Banner with image of Edinburgh Castle"
+src="/images/edinburgh-pm-org-banner.gif" width="535" height="91" border="0">
+
+<div class="navigation">
+<span class="blue-bold">You are here ></span> <a href="http://edinburgh.pm.org/">edinburgh.pm</a> > <a href="http://edinburgh.pm.org/book-reviews/">book reviews</a> > win32 perl scripting</div>
+
+<p>
+
+<div class="content">
+
+<b class="header">Win32 Perl Scripting: The Administrator's Handbook</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Dave Roth</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td><a href="http://www.newriders.com/">New Riders</a></td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>1578702151</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>Oct 31, 2000</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>371</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>$35 retail<td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>$31.50 from publisher<td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>£21 - £35 from Amazon.co.uk<td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Anthony Randell</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.roth.net/books/handbook/">
+<img alt="Cover image for Win32 Perl Scripting"
+src="/images/win32-perl-scripting-admin-cover.jpg" width="125" height="188">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+
+I have one big gripe with this book - I wasn't aware of it when I was mucking
+around with Windows NT and it would have saved me a lot of time. I can't really
+blame that on Dave Roth of course...
+<p>
+Overall the book is excellent, it would have saved me many times the cover price
+had I known of it. If you're doing any administration work on Windows then I
+recommend you buy it.
+
+<p>
+
+<b>Who should read:</b>
+
+<p>
+
+Windows Administrators. Perl makes it simple to automate tedious tasks that
+would otherwise have to be done manually (as in, repetitively, boringly)
+using the GUI.
+<p>
+Perl conversant Unix/Linux Admin. I.e. anyone who also has to look after some
+Windows machines and wants to know how to run tasks in the background, or how
+to do simple user setup, or how permissions work... Dave Roth answers some basic
+questions that can take a lot of digging to uncover.
+
+<p>
+
+<b>Note that:</b>
+
+<p>
+
+The book presupposes a basic level of Perl knowledge and does not go into Perl
+basics at all. This is appropriate as a chapter on Perl would be a loss of focus.
+It may put off some Windows administrators and that would be a shame.
+<p>
+The book does not go into detail on Windows 32 internals or architecture either,
+it however briefly discusses the relevant concepts, enough so that the issues are
+understood. This is appropriate as many of the books audience will not be familiar
+with how Windows behaves.
+<p>
+It's not a replacement for a Windows administration reference however. 
+<p>
+Dave Roth has contributed many Perl modules (Win32::ODBC, Win32::AdminMisc,
+Win32Daemon, and Win32::Perms) and is also the author of &quot;Win32 Perl
+Programming: The Standard Extensions&quot;. He has a great deal of experience
+and it shows.
+
+<p>
+
+<b>Comments:</b>
+
+<p>
+
+The code does not use strict or warnings. Almost all scripts will need
+configuring so there is potential for mistakes. Easily solved but probably
+worth a mention at the start. You can download code, to save your fingers
+from <a href="http://www.roth.net/">www.roth.net</a>.
+<p>
+The book is not overly verbose and there is a high script to text ratio.
+It is however, well written and easy to read. The book is not intended
+as a reference book to the various Perl interfaces to the Windows API
+(if interested, check out Dave Roth's companion volume &quot;Win32 Perl
+Programming: The Standard Extensions&quot;) but it will give you valuable
+tools, ideas, and strategies on how to manage your network better.
+
+<p>
+
+<b>Reasons to buy this book:</b>
+
+<p>
+
+The Windows API is not intuitive and the documentation is cryptic - interfacing
+to the various modules takes trial and error, blood, sweat and curses.
+Administrators generally do not have that luxury, and this book will save
+a lot of time - and some profanities. 
+<p>
+The book contains some excellent examples that would be useful immediately
+as is, and provides plenty of ideas for further development.
+<p>
+Windows has no native character line interface worth mentioning (batch
+files do not expose the API and are very limited). You can buy a wide variety
+of system administration tools, but these are non-standard (every site uses
+something subtly different) and they all cost money. Most of the tools use the
+Win32 API, which means that using the Perl interfaces it is possible to
+duplicate these tools quickly and flexibly.
+<p>
+Most Windows system tools only operate on the single machine, so to do
+something on a different server you need to physically log on to the console,
+either by walking there or using remote control software - this is a pain
+when your server is a long way away and your company won't fork out another
+remote control license (or the remote control software doesn't play nicely
+with the other applications). Permissions are a complete swine to administer
+under Windows NT. This is done through the GUI (I know of no Windows CLI to
+do this), and it's dead slow. Dave Roth has supplied some scripts to report on,
+take ownership and backup/restore permissions. I'd put these as worth the
+price of admission alone. 
+<p>
+There are some scripts for dumping machine configuration to text files for
+easy backup and recovery. Many of these do things like restoring the shared
+drives that are usually ignored but can take effort to recover. I especially
+liked the script for recovering file permissions - it's quite easy to blow
+away the permissions on a sub-directory inadvertently and I've done this several
+times only to face a laborious recovery task. 
+<p>
+Not all the book is devoted to working around the lack of CLI tools in
+Windows, there's a very interesting section on some scripts working with
+multiple data streams in a single file. Aka NTFS Streams, these allow the same
+file to have multiple data streams -- think of it as similar to an Excel
+document with multiple sheets - one file and many separate pages of data).
+This is something that I'd envisage as very useful for managing error
+logs (e.g. different streams for different event classes) but it's apparently
+largely unknown (I was completely ignorant). The standard Windows commands
+and tools don't work well with data streams but you can expose them with
+some of the Perl scripts in this book.
+<p>
+Services (aka running tasks in the background in Windows) are a huge
+potential &quot;gotcha&quot; in Windows, depending on how they are setup
+they can or cannot access the network. This caused me much pain as some
+proprietary code demanded a network, which I couldn't see when my scripts
+were running as a service. I eventually got round this with some crufty code
+listening on a port. Dave discusses the pitfalls with services and several
+good strategies for dealing with them, as well as more elegant Daemon
+strategies for Windows and some robust code samples.
+<p>
+<b>Chapters</b> (followed by a brief and INCOMPLETE description of SOME of the highlights):
+<p>
+<ol>
+<li>Perl and the admin - Short advocacy section, some win32 setup tips and tricks.</li>
+
+<li>Account maintenance - Creating/ maintaining/ disabling, assigning rights without touching the GUI.</li>
+
+<li>Tools - File system, file and directory permissions, TCP/IP configuration, registry delving.</li>
+
+<li>Crisis management - Back up and recovering files, permissions, tracking security breaches.</li>
+
+<li>Monitoring and reporting - Monitoring and searching windows events, automating paging and email alerts.</li>
+
+<li>Logon Scripts - Including an example unified login script.</li>
+
+<li>Processes - &quot;ps -ef&quot; for Windows. Including how to query processes on networked machines and kill them and some tips on getting 'backtick'ed commands to work correctly.</li>
+
+<li>Win32 Services - Running things in the background made easy.</li>
+
+<li>ADSI and WMI - Interfaces to a new set of APIs that provide enhanced reporting and control over Windows.</li>
+</ol>
+
+<b>Links:</b>
+<p>
+<a href="http://www.roth.net/books/handbook/">http://www.roth.net/books/handbook/</a> - Dave Roth's site including some errata and various mailing lists, scripts (plus the code for the book) and other useful stuff.
+<p>
+<a href="http://www.newriders.com/">http://www.newriders.com/</a> - Publishers. <a href="http://www.newriders.com/content/images/1578702151/samplechapter/1578702151.pdf">Sample chapter</a>
+
+
+<p>
+
+
+</div>
+
+<p>
+
+<img width="520" height="3" alt="faded separator" src="/images/hr-336699-fade-long.gif">
+
+<div class="content">
+<p>
+
+Page maintained by <a href="mailto:owner-edinburgh-pm-list@pm.org">Rory Macdonald</a>
+<br>
+Last updated : Fri Jan 17 18:04:43 GMT 2003
+
+
+</div>
+<p class="flush">&nbsp;</p>
+
+</body>
+
+
+</html>
+
+
