@@ -1,4 +1,4 @@
-[% WRAPPER "_page.tt" WITH title = 'Edinburgh Perl Mongers Home Page' %]
+[% WRAPPER "_page.tt" WITH title = 'Edinburgh Perl Mongers' %]
   <h2>Edinburgh Perl Mongers</h2>
   <p>
     Mostly an excuse to meet up once a month for a <code>$beverage</code> and chat amongst like minded individuals.  The conversation covers a wide range of subjects, technical and otherwise, so anyone is welcome who knows their <code>$foo</code> from their <code>#include</code>.
