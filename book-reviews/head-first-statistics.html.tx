@@ -1,0 +1,130 @@
+﻿[% WRAPPER "_page.tt" WITH title = 'Book Review - Head First Statistics' %]
+
+<b class="header">Head First Statistics</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Dawn Griffiths</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>978-0-596-52758-7</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>August 2008</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>677</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;21.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Roger Spooner</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://oreilly.com/catalog/9780596527587/index.html">
+<img alt="Cover image for Head First Stats" src="/images/head-first-stats-cover.png" width="180" height="208">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+This is a very readable study book for new university students (or
+people around that stage) learning statistics and probability for an
+academic course. It goes to great lengths to be fun and memorable to
+read for people who probably have a lot of books to get through, and who
+may find the topic difficult.  It uses clip art and photography
+extensively, as well as breaking up the routine of the text with
+different styles of content, and lots of exercises. A typical page has a
+simple graph or algebraic equation with "hand written" annotations
+emphasising key characteristics, then a photograph of a student (to whom
+the reader can relate) making some comment, and a few paragraphs of
+text. It adds up to something covering many pages, but which is easier
+to digest.
+<p>
+The publishers make a big deal of the "Head First" style, beginning with
+a whole chapter about it. The repetition works quite well although I
+sometimes think that I'd rather cram something new in to my fading
+grey-cells than hear the same story again. My favourite part of the
+technique was the brief annotations on pictures and in the observations
+by the photographed people. They often summarised a tricky point very
+clearly and concisely. Making a formula talk about itself and who it is
+similar to, is surprisingly good. Sometimes the repetition got the
+better of me, for example on pages 416, 417 and 418 where a point that
+was merely about an example was made 4 times.
+<p>
+There are lots of really well designed examples. They are based on
+plausible scenarios such as a gym that wants to allocate new members to
+the class with the closest average age, but keeps getting into a muddle
+because they do their statistics wrongly. In one, a 17 year old man
+joined a class where the median age was exactly 17, only to find out
+that it was a mother-and-toddler swimming class and he was not welcome!
+The exercises build on these examples. Although I found them generally
+easy, I think that they would be well balanced for a person meeting
+these topics for the first time.
+<p>
+For myself, I was looking for a reminder about which statistical
+techniques can be applied to different types of experimental data, but I
+did not find that; the pinnacle of the book's coverage seemed to be the
+normal distribution. I was nevertheless pleased to find a page about
+sources of bias in badly chosen sample sets. Its main topics go from
+plotting simple data to averages and variance, an introduction to
+probabilities, the binomial, geometric and poisson distributions, the
+normal distribution, sampling and making predictions about the larger
+population, hypothesis tests, then finally the chi-squared test and
+correlation lines.
+<p>
+There were some over-simplifications, such as that time should always go
+on the X axis of a line chart, whereas I'd expect to see the controlled
+variable which isn't necessarily time. Some charts had compressed areas
+representing large gaps in the data set which is a trick to be used
+sparingly, and actually worked against the topic at hand. I found a few
+mistakes, such as a graph axis on p38 labelled "Hours" which should be
+"Age", and a data set on p61 miscopied from p55. The print quality is
+not as good as books on artistic topics; most of the photographs are too
+dark.
+<p>
+In summary, Head First Statistics covers its topic very clearly, and is
+an excellent study aid for basic probability and statistics. It looks
+very different from the average book, and almost all of those
+innovations work really well, especially the one-sentence annotations.
+The examples and exercises are strong, and the book progresses well
+through advancing topics.
+<p>
+<pre>
+Contents
+
+Intro
+1  Visualizing Information: First Impressions
+2  Measuring Central Tendency: The Middle Way
+3  Measuring Spread: Power Ranges
+4  Calculating Probabilities: Taking Chances
+5  Discrete Probability Distributions: Manage Your Expectations
+6  Permutations and Combinations: Making Arrangements
+7  Geometric, Binomial, and Poisson Distributions: Keeping Things Discrete
+8  Normal Distribution: Being Normal
+9  Normal Distribution Part II: Beyond Normal
+10 Using Statistical Sampling: Taking Samples
+11 Estimating Your Population: Making Predictions
+12 Constructing Confidence Intervals: Guessing with Confidence
+13 Using Hypothesis Tests: Look at the Evidence
+14 The Chi Square Distribution: Theres Something Going on
+15 Correlation and Regression: Whats My Line?
+Appendix  i : Top Ten Things We Didnt Cover
+Appendix ii : Statistics Tables
+</pre>	
+<p>
+
+[% END %]

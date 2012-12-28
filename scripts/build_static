@@ -1,0 +1,53 @@
+#!/usr/bin/env perl
+
+# the pm.org website doesn't allow SSI includes or anything dynamic.
+# So each "page" is managed by creating a $foo.html.tx template.
+# We're using XSlate in it's "TT-esque" syntax mode.
+# This script loops through each of those, generating a regular static html
+# page from it.
+
+# Usage: ./script/build_static [/path/to/look/for/files]
+
+use common::sense;
+use autodie;
+use Text::Xslate;
+use Path::Class qw<dir>;
+use File::Slurp qw<write_file>;
+use FindBin;
+
+my $dir = dir($ARGV[0] || "$FindBin::Bin/../");
+my $tx  = Text::Xslate->new(
+    syntax => 'TTerse',
+    path   => ['/', $dir],
+);
+supper($dir);
+
+sub supper {
+    my ($dir) = @_;
+    for my $child ( $dir->children(no_hidden => 1) ) {
+
+        # Recurse into directories
+        if ($child->is_dir) {
+            supper($child);
+            next;
+        }
+
+        # Ignore files that aren't named .html.tx
+        if ($child->basename !~ /\.html.tx\z/) {
+            next;
+        }
+
+        # The output filename is the template name, minus .tx suffix
+        my $output = $child->resolve->stringify;
+        $output =~ s/\.tx\z//;
+        say $output;
+
+        # Do a little dance to avoid wide-character-in-print errors
+        # May be fixed in a newer File::Slurp
+        # https://rt.cpan.org/Public/Bug/Display.html?id=34444
+        my $html = $tx->render($child->resolve->stringify, {});
+        utf8::encode($html);
+
+        write_file $output, { binmode => ':utf8' }, $html;
+    }
+}

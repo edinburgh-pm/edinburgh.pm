@@ -1,0 +1,111 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Web Development with Apache and Perl' %]
+
+<b class="header">Web Development with Apache and Perl</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Theo Petersen</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>Manning</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>1-930110-06-5</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>April 2002</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>424</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>£40.50 (paper)</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>$22.47 (eBook in PDF)</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Keith Hennessey Brown</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.manning.com/petersen/index.html">
+<img alt="Cover image for Web Development with Apache and Perl"
+src="/images/web-development-with-apache-and-perl.jpg" width="100" height="120">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+
+This book from Manning aims to provide a compendium of ideas for web development using Open Source tools. Author Theo Petersen assumes that the reader is somewhat familiar with Perl, but that they may not be aware of the wealth of pre-existing modules and application software that can be leveraged for web-based projects in a "virtuously lazy" manner.
+
+<p>
+
+The scope of the book, divided into 12 chapters and four parts, is broad, covering everything from Open Source licenses to setting up an e-commerce site to Web Farming.
+
+<p>
+
+Part one introduces the strengths of the Open Source model, Apache and Perl. Taken together the three chapters cover all the basics, whether it be convincing PHB's of the benefits of Open Source solutions generally and Apache and Perl speficically; getting the server and Perl up and running; or explaining why warnings, use strict and taint checking are not optional for CGI programming. No complaints, other than a slightly awkward section (1.1.1.) where Petersen appears to conflate "free as in speech" and "free as in beer" when he says that "the price of the software is still 0".
+
+<p>
+
+Part two builds on this solid foundation, introducing a variety of more advanced topics in a sensible progression, devoting a chapter each to databases, efficiency, security, and techniques for combining Perl and HTML. In each case Petersen introduces the problem and examines a variety of possible solutions before focussing in more depth on one or two. So, for example, he explains that normal Perl CGI is inefficient because it works on a fire and forget basis, looks at Fast CGI and then concentrates on mod_perl as a more general purpose solution. Selections are made pragmatically rather than dogmatically and there's a clear sense throughout that it's all about freedom of choice. For me this was the best part of the book, full of useful ideas on how to put together robust, secure, efficient and maintainable solutions. My only criticism is something essentially outwith the remit of the book: The website for a browser-based database interface, WDBI, appears to have disappeared between the time of publication and the time of writing.
+
+<p>
+
+Part three looks at three types of site - community sites, intranets and storefronts - with a chapter on each identifying its distinctive requirements and suggesting suitable software. As such, there's less code here and more in the way of subjective evaluations of forums, shopping carts and suchlike in terms of feature sets, ease of installation, configuration and customisation and so forth, with inadequate documentation the most common criticism.
+
+<p>
+
+Part four looks at site management, with a chapter on content and a chapter on performance. I have to say I found this part most difficult to evaluate - I wish the sites I work on were successful and well enough resourced to have need of the techniques Petersen describes. That said, both chapters appear to be up to the high standards elsewhere and, as such, I believe those who need to know about the likes of Apache's mod_proxy will find what they need.
+
+<p>
+
+Due to its approach and breadth of scope Web Development with Apache and Perl is less a cover-to-cover read and more a book to dip into when confronted by a new web development project. But, while its chapters can be read and used in isolation, developers will get a better picture from at least skimming the entire book sequentially as this gives a better sense of how the decision to go with particular software could impact subsequent development. In choosing between the MySQL and Postgres databases, for instance, it's worth noting that Petersen chooses MySQL because some applications he introduces later require it. Your mileage may vary, as they say.
+
+<p>
+
+The writing and code - available for download from the publisher's website - are of a high standard overall. While Petersen encourages the use of Open Source solutions he always evaluates them in an even-handed manner. 
+I came away from the book feeling confident that, even if I may not have any immediate need to know how to build an intranet - to give one example - it would contain the information I needed. I'd recommend it to any Perl Monger doing Perl/Apache web development, particularly if they are also using the other components of a LAMP system, and will be keeping it close by for consultation when embarking on new web development projects.
+
+<p>
+
+<b>Table of contents</b>
+<p>
+<pre>
+Part I: Web site basics
+
+   1. Open Source
+   2. Apache and other servers
+   3. CGI scripts
+
+Part II: Application tools
+
+   4. Databases
+   5. Better script performance
+   6. Secure communications
+   7. Embedding Perl in HTML
+
+Part III: Site designs
+
+   8. The Community site
+   9. The Intranet site
+  10. The Web store front
+
+Part IV: Site Management
+
+  11. Managing content
+  12. Improving performance
+</pre>
+
+[% END %]

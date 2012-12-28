@@ -1,0 +1,165 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Mastering Regular Expressions, 3rd edition' %]
+
+<b class="header">Mastering Regular Expressions, 3rd edition</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails" valign="top">Author</td><td> Jeffrey E.F. Friedl</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-52812-4</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>August 2006</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>542</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;31.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Aaron Crane</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/regex3/index.html">
+<img alt="Cover image for Mastering Regular Expressions" src="/images/mastering-regular-expressions.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+
+<p>
+<em>Mastering Regular Expressions</em> has been around for a long
+time &#8212; this is the third edition of a book originally published a decade
+ago.  Does that actually reflect justified popularity, or is it just
+that this is the only book-length treatment of the various regex
+engines, how they differ, and how to get the most out of them?  I'm glad
+to say that doesn't seem to be case: if you use regexes in any depth at
+all, you should probably read this book.</p>
+
+<p>The tight integration of regular expressions into the rest of the
+language is one of the defining characteristics of Perl.  It also tends
+to inform idiomatic Perl code: a lot of Perl code can (and does) make
+full use of all the facilities of the regex engine.  But many
+programmers treat advanced use of regexes as a bit of a black art,
+relying perhaps on cargo-culting as a problem-solving approach (or even
+the ever-popular technique of editing randomly till it seems to
+work).</p>
+
+<p>Part of the problem is that tutorial-style books typically don't have
+enough space to do full justice to the capabilities of regexes, while
+reference texts typically cover the details of each feature, without
+analysing what you can actually accomplish with them.  This is precisely
+the gap that <em>Mastering Regular Expressions</em> attempts to fill,
+offering full, in-depth coverage of everything you need to know to get
+the most out of your regexes.</p>
+
+<p>The two opening chapters are aimed mainly at novices, though they can
+also be good review material for more experienced readers seeking to
+clarify or confirm their understanding.  Chapter&#160;1 starts by looking at
+what sorts of things regexes can do, and the syntaxes used; it
+introduces a useful mental model for thinking about regexes.  Friedl
+looks at a real-world example &#8212; finding doubled words &#8212; right from the
+start, which is very encouraging.  Chapter&#160;2 continues in the same vein,
+applying regexes to additional realistic tasks.  It also begins to look
+at how to write regex-using code in various programming languages.</p>
+
+<p>Chapter&#160;3 deals with the nitty-gritty details of the various regex
+dialects: which features are available in which engines, and the
+cross-engine syntactic differences for the features that they all share.
+This is definitely useful even for more-experienced readers, especially
+those who are mostly familiar with one dialect (say, Perl) but
+occasionally need to use another (perhaps that of the traditional Unix
+<code>grep</code>(1) utility).</p>
+
+<p>Chapter&#160;4 is perhaps the core of the book in terms of detailed
+descriptions of how regex engines work.  It offers a typology of regex
+engines (DFA, Traditional NFA, POSIX NFA, or hybrid), looking in detail
+at how the choice of implementation affects the way your regex is
+executed.  This involves some discussion of the theory behind regexes,
+but the approach is overwhelmingly practical and pragmatic rather than
+mathematical.  (Indeed, <a href="http://swtch.com/~rsc/regexp/regexp1.html">some authors</a>
+suggest that, if anything, Friedl pays too little attention to the
+underlying theory.)</p>
+
+<p>Chapter&#160;5 takes the knowledge built up in the previous chapter and
+applies it to a larger variety of real-world problems &#8212; and without
+avoiding thorny issues that often crop up in practice.  Chapter&#160;6 is in
+much the same vein, but focuses especially on performance: the
+optimisations that engines apply automatically, and how to craft regexes
+to take maximum advantage of the way the engine works.</p>
+
+<p>The remaining chapters are rather different: each covers a particular
+programming language, and the regex facilities offered in that language.
+Chapter&#160;7 looks at Perl, and is the most detailed; that's not entirely
+surprising given Perl's tight integration of regexes.  The remaining
+chapters cover Java, .NET, and PHP respectively.</p>
+
+<p>There's much to like about <em>Mastering Regular Expressions</em>.
+It's certainly a comprehensive analysis of how to get the most out of
+regexes, especially for Perl programmers.  It demonstrates enormous
+attention to detail; for example, it adopts some simple but clever
+typographical conventions that eliminate confusion between text that is
+matched by a regex on the one hand, and the textual representation of
+the regex itself on the other.</p>
+
+<p>That said, it's not impossible to find things to complain about.  At
+times, it explains things with metaphors that are somewhat too cutesy
+for my taste (though I can imagine some readers finding them very
+helpful).  A case could also be made that, for a reader whose interest
+is focussed on any given regex implementation, there's too much coverage
+of all the others; in particular, Friedl's preference for Perl is
+obvious.  But then, the results are better than having separate books
+for each major tool, and it can be of interest to look at the different
+features available in other worlds.</p>
+
+<p>Another potential issue for some is that, for obvious and unavoidable
+chronological reasons, this edition can't cover the new regex features
+available in the forthcoming release of Perl&#160;5.10 &#8212; or, for that matter,
+the rather different pattern-matching language that will be part of
+Perl&#160;6.  It would be pleasing for future editions will cover these
+changes.</p>
+
+<p>Overall, <em>Mastering Regular Expressions</em> is an excellent book.
+I highly recommend it to all intermediate or advanced Perl programmers,
+or anyone else who often needs to extract information out of text.</p>
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Mastering Regular Expressions
+
+ 1. Introduction to Regular Expressions
+ 2. Extended Introductory Examples
+ 3. Overview of Regular Expression Features and Flavors
+ 4. The Mechanics of Expression Processing
+ 5. Practical Regex Techniques
+ 6. Crafting an Efficient Expression
+ 7. Perl
+ 8. Java
+ 9. .NET
+10. PHP
+
+Index
+
+</pre>
+
+[% END %]

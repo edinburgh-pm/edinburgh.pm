@@ -1,0 +1,135 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Growing Software - Proven Strategies for Managing Software Engineers' %]
+
+<b class="header">Growing Software - Proven Strategies for Managing Software Engineers</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Louis Testa </td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>No Starch</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>978-1-59327-183-1</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>March 2009</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>424</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;31.49 or US$39.95</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Roger Spooner</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://nostarch.com/growingsoftware.htm">
+<img alt="Cover image for Growing Software" src="/images/growing-software-cover.png" width="180" height="240">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+This is a terrific reminder of the breadth and skills needed when taking
+on the role of CTO in a small company. The book really sticks to its
+agenda, and goes through project management, quality assurance, process
+improvement, assessment of what is already in place when you arrive,
+recruitment and managerial politics.
+<p>
+It is easy to read, flowing at a good pace and with lists of key points,
+some good diagrams, and entertaining half-page quotes from people who
+have been in particular situations. There's an excellent diagram explaining
+the misunderstandings that may arise in product features between customers,
+engineers and marketing staff. The cost-benefit analysis of project tasks
+being prioritised, and also the impact analysis of bug reports, are both
+great. Since we'll always be asked to do more than we have time for, this
+framework for justifying prioritisation will help other managers to
+understand and express what matters.
+<p>
+Each chapter is long enough to give you an understanding of any topics you
+may not already have known, but no single topic takes over the book. The
+excellent references include Peopleware, The Mythical Man Month and User
+Interface Design for Programmers, as well as Wikipedia and some recent
+publications. Much of the book will be familiar to an experienced team
+lead, but by going over each topic from the beginning, it gives you a
+solid foundation in them all. As it says in the last chapter, "If you have
+read straight through this book, you have covered a lot of ground."
+<p>
+The underlying principle of the book, in addressing a person newly hired
+to be the CTO of a 50-person software company, is that you should first
+review the position you're in. Consider business issues architecture,
+quality, personalities and strategy as well as features. Then write some
+notes before acting. This comes across repeatedly in talk of process
+improvement, long term plans and quality time bombs, amongst many other
+areas.
+<p>
+Although rich in truthiness, with many points I can confirm from my own
+experience, there were a couple of small errors (which didn't detract
+significantly). A list of factors motivating engineers is rather short 
+(Fred Brookes has the proper list), a calculation of productive hours in a
+day is done backwards, and a chart is described as having information that
+it hasn't. Despite reading two chapters on product roadmaps, I found it was
+still unclear how to match technical requirements to the market. Recruitment
+is covered in depth (recommending day-long interviews) but it doesn't lead
+on to the full costs of inducting new staff into a team.
+<p>
+Because the reader is likely to be highly familiar with their own technology,
+but may be new to senior management politics, the book spends quite a lot of
+time on soft skills. Some of this, like recruitment, may in fact already be
+known, but some, like making sure that the engineering department remains
+close to the marketing department, is very pertinent.
+<p>
+I wholeheartedly recommend Growing Software. I found it reassuring on those
+topics already within my experience, and enlightening on the areas beyond.
+It is never patronising, and has none of the padding that so many 400 page
+books have. I look forward to more, both by the author and from this
+publisher.
+<p>
+<pre>
+Contents
+* Introduction
+* Part I: Development Team
+   o 1.  Getting Started (understanding the people in the company you have joined)
+   o 2.  Managing a Development Team (trust, communication, conflict resolution)
+   o 3.  Creating an Effective Development Team (efficiency, office space, communicating with other teams)
+   o 4.  Growing a Software Team (recruitment)
+* Part II: Product and Technology
+   o 5.  Defining the Product (prototyping, building a relationship with Marketing)
+   o 6.  Driving Releases (scheduling, release process, version numbers)
+   o 7.  Evaluating your Tools and Methods (backups, documentation, version control, bug tracking ...)
+   o 8.  Assessing your Technology (quality of the existing scalability, error reporting, third part libraries, ...)
+* Part III: Outside of Engineering
+   o 9.  Working with Your Company (culture, inter-team problems, peer relationships, team respect)
+   o 10. Working with the CEO and the Executive Team (supporting your boss, collaborating effectively)
+   o 11. Listening to Your Customers (customer satisfaction, closing the deal ...)
+* Part IV: Making Work Flow: Projects, Process and Quality
+   o 12. Project Estimating (task list, writing an estimate, overheads)
+   o 13. Starting a Project (assembling the team, timeline, project plan)
+   o 14. Project Execution and Tracking (Gannt charts, tracking spreadsheets, risk, changes)
+   o 15. Designing a Software Development Process (waterfall, iterative, agile processes, customising, introducing)
+   o 16. Process Improvement (listing process steps, estimating times, analysing a model)
+   o 17. Understanding Quality Assurance (valuing quality, QA tools and environment, defect ranking, metrics)
+* Part V:  Planning the Future
+   o 18. Setting the Direction (listen to the market, create a whole product, technology overhauls)
+   o 19. Product Roadmap and Strategy (creating a roadmap, cost-benefit calculations)
+   o 20. Going Forward (summary of principles)
+* Appendix
+   o A.  Software Company Structure (organisation charts, and staff roles for various sizes of company)
+   o B.  Internationalisation (translation, databases, currency, dimensions, QA, translation companies)
+   o C.  Corporate Workflow Diagram (mapping the actions in a process, with department interactions)
+* Index
+</pre>	
+<p>
+
+[% END %]

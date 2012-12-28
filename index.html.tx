@@ -1,0 +1,27 @@
+[% WRAPPER "_page.tt" WITH title = 'Edinburgh Perl Mongers Home Page' %]
+  <h2>Edinburgh Perl Mongers</h2>
+  <p>
+    Mostly an excuse to meet up once a month for a <code>$beverage</code> and chat amongst like minded individuals.  The conversation covers a wide range of subjects, technical and otherwise, so anyone is welcome who knows their <code>$foo</code> from their <code>#include</code>.
+  </p>
+  <p>
+    Established in July 1999, we're a part of the global <a href="http://www.pm.org/">Perl Monger</a> organisation.
+  </p>
+
+  <h2>Events</h2>
+  <ul>
+    <li><b>Regular social meeting:</b> 4th Thursday of the month. From 6:30pm at <a href="http://www.cumberlandbar.co.uk/">Cumberland Bar</a>.</li>
+    <li><b title="Heretics!">Irregular social meeting:</b> 5th Thursday of the month. Check the <a href="http://mail.pm.org/mailman/listinfo/edinburgh-pm">mailing list</a> as venues change.</li>
+    <li><a href="http://act.yapc.eu/ye2013/">YAPC::Europe 2013 in Kiev — “Future Perl” </a></li>
+  </ul>
+
+  <h2>Mailing list</h2>
+
+  <ul>
+    <li><a href="http://mail.pm.org/mailman/listinfo/edinburgh-pm">http://mail.pm.org/mailman/listinfo/edinburgh-pm</a></li>
+  </ul>
+
+  <h2>Book reviews</h2>
+  <ul>
+    <li>We <a href="/book-reviews/">have some</a>, but they are quite old now and aren't getting much love.</li>
+  </ul>
+[% END %]

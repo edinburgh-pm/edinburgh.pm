@@ -1,0 +1,134 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Time Management for System Administrators : Stop Working Late and Start Working Smart' %]
+
+<b class="header">Time Management for System Administrators</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Thomas A. Limoncelli</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00783-3</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>November 2005</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>200</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;17.50</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/timemgmt/">
+<img alt="Cover image for Time Management for System Administrators" src="/images/time-management-cover.png" width="127" height="190">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+
+You know that old chesnut of an interview question, &quot;What would you say your main weakness was?&quot; Instead of trying to come up with something cutesy, I've always told it straight; &quot;I sometimes have trouble managing my time, but I work harder in that area to make sure that it never becomes a problem&quot;.
+
+<p>
+
+So I was quite drawn to this book to see how my own techniques at time management stacked up against someone with more experience in the area.
+
+<p>
+
+Intended for system/network adminstrators and the like, the author kicks things off by explaining why this book is needed. Why the interrupt-driven nature of a system administrator's lot are sufficiently different from other I.T. professionals that a separate book is required. It's not a hugely strong argument that is put forward here, but the book is certainly presented in a language any in-the-trenches SA would empathise with.
+
+<p>
+
+Besides frequent references to day-in-the-life SA tasks, there is a &quot;User Friendly&quot; cartoon in every chapter. Sometimes relevant to the matter at hand, sometimes not. But always familiar territory for the SA.
+
+<p>
+
+There's no rocket science presented here. Just plenty of time-honoured common sense techniques to make sure that all jobs get <i>managed</i>, and that you have time to have a life outside of work. Many of the techniques offered can be applied to out-of-work activities, such as &quot;I (the author) want to date a porn star&quot;. Best of luck to you, Thomas.
+
+<p>
+
+The author does a good job of engaging with the reader all the way through. From a fun dialogue between himself and a would-be reader at the start, to various gentle and not so gentle attempts to coax the reader into taking time out from reading to actually go off and practice some technique there and then.
+
+<p>
+
+I'm sure many of the section headings will certainly draw the reader's attention. Such as &quot;You Can Say 'Go Away' Without Being a Jerk&quot;, or &quot;Eliminating Time Wasters&quot;.
+
+<p>
+
+There are also a decent number of personal accounts from the author, illustrating key points. Such as the embarrassment he felt when asking someone to wait while he checked his schedule in order to ok a time for a meeting. Sounds trivial, but this helped to drive home the routine to ensure that you never miss a meeting or event.
+
+<p>
+
+Built around common sense, the core of the author's approach is what he calls &quot;The Cycle&quot; which in its briefest form could be stated as;
+
+<ul>
+<li>create today's schedule
+<li>create today's to do list
+<li>prioritize and reschedule
+<li>work the plan
+<li>finish the day
+<li>leave the office
+<li>repeat
+</ul>
+
+<p>
+
+The author expands on all of these points, including the importance of mantras, how to deal with long-term projects and how to work schedules in relation to personal and business rhythms.
+
+<p>
+
+My only furrowed brow came late in the book when the author states &quot;Geeks hate printed documents. Why kill a tree?&quot; A hard stance to take seriously, when those words are printed on dead tree. Of course, like most O'Reilly texts these days, it comes with 45 days free access to the book via the publisher's online library, Safari.
+
+<p>
+
+<b>Summary</b>
+
+<p>
+
+The book is a well paced, informative and engaging guide for the SA looking to manage their time more effectively. The techniques offered are simple and easy to follow and are sure to be of assistance to those who feel they have lost control of their own time management.
+
+<p>
+
+Readable in a day or so, I highly recommend this book.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Ch1  : Time Management Principles
+Ch2  : Focus Versus Interruptions
+Ch3  : Routines
+Ch4  : The Cycle System
+Ch5  : The Cycle System: To Do Lists and Schedules
+Ch6  : The Cycle System: Calendar Management
+Ch7  : The Cycle System: Life Goals
+Ch8  : Prioritization
+Ch9  : Stress Management
+Ch10 : Email Management
+Ch11 : Eliminating Time Wasters
+Ch12 : Documentation
+Ch13 : Automation
+Epilogue
+Index
+</pre>
+
+[% END %]

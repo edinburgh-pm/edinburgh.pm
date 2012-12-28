@@ -1,0 +1,132 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Fonts and Encodings' %]
+
+<b class="header">Fonts and Encodings</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails" valign="top">Author</td><td>Yannis Haralambous. Translated by P. Scott Horne</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-10242-9</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>September 2007</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>1037</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;37.50</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>David Thomas</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/9780596102425/index.html">
+<img alt="Cover image for Fonts and Encodings" src="/images/fonts-and-encodings-cover.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+Fonts are the clothes that words wear and Encodings turn bytes into meaning.
+<i>Fonts &amp; Encodings</i> landed on my desk rather surprising me by its
+size. At over 1,000 pages it's a comparable size to the last big 'fonty' tome
+I'd read from O'Reilly: <i>CJKV Information Processing</i>.
+<p>
+Initially I thought they'd sent me the wrong book: the colour scheme had turned
+from 'Web Design' blue into 'Text Processing' magenta somewhere between the
+picture in the catalogue and the first printing. A quick bit of googling turned
+up this explanation of
+<a href="http://www.oreillynet.com/oreilly/blog/2006/09/the_mystery_behind_our_spine_c.html">
+O'Reilly's spine colour logic</a>.
+<p>
+The book is broken down into four sections and seven appendixes. The appendixes
+are unusually large taking up well over a third of the book.
+<p>
+The first part takes us through encodings, starting with early encodings such as
+FIELDATA (no, I'd never heard of it either) then moving onto ASCII, EBCDIC, ISO
+2022, 8859, Microsoft code pages and so on. It then moves onto a detailed look
+at Unicode, character properties and bidirectionality.
+<p>
+Part two covers font management on Mac OS, Windows and X Windows. As you may
+expect Mac OS is spoilt for choice. Windows comes out looking like a poor
+cousin. Both of them look like a doddle in comparison to the X Windows
+situation.
+<p>
+Part three takes us into TeX territory. We're introduced to &Omega;, an
+extension to TeX allowing use of Unicode, which the author co-developed.
+<p>
+Part four moves onto font classification and takes a look at the different
+methods available for classifying fonts. Here I was rubbing my eyes in
+disbelief in finding an <i>actual description</i> of PANOSE.
+<p>
+The appendixes add some very useful material, discussing bitmap fonts and the
+variety of different font formats in great detail. Finally it has a nice section
+describing B&eacute;zier curves.
+<p>
+While reading I noticed a number of errors. Most were minor. This first edition
+of the book was translated from Haralambous' French version, by P. Scott Horne,
+so I reckoned occasional errors were forgiveable. Initially these were of the
+spelling mistake variety but later on an occasional fact wouldn't ring true:
+does PostScript <i>really</i> use a 1,024-unit em square? I thought it was
+1,000.
+<p>
+<b>Summary</b>
+<p>
+Leafing through the pages I find myself thinking that it's such a shame I
+didn't have this book all those years ago when we started writing my company's
+font engine.
+<p>
+It's a very dense book, but doesn't feel like it. The clear and meaningful
+descriptions of concepts and the amount of detail is excellent. I can't think of
+anything that could be added and, equally important, anything that should be
+taken away.
+<p>
+Well worth diving into if you're in any way involved in using fonts.
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Fonts and Encodings
+
+Introduction
+ 1. Before Unicode
+ 2. Characters, glyphs, bytes: An introduction to Unicode
+ 3. Properties of Unicode characters
+ 4. Normalization, bidirectionality, and East Asian characters
+ 5. Using Unicode
+ 6. Font Management on the Macintosh
+ 7. Font Management under Windows
+ 8. Font Management under X Window
+ 9. Fonts in TEX and &Omega;, their installation and use
+10. Fonts and Web Pages
+11. The History and Classifications of Latin Typefaces
+12. Editing and Creating Fonts
+13. Optimizing a rasterization
+14. Enriching Fonts: Advanced Typography
+ A. Bitmap Font Formats
+ B. TEX and &Omega; Font Formats
+ C. PostScript Font Formats
+ D. The TrueType, OpenType, and AAT Font Formats
+ E. TrueType Instructions
+ F. METAFONT and Its Derivatives
+ G. B&eacute;zier Curves
+</pre>
+
+[% END %]

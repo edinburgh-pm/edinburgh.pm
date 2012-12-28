@@ -1,0 +1,173 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Learning Perl Objects, References and Modules' %]
+
+<b class="header">Learning Perl Objects, References and Modules</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Randal L. Schwartz and Tom Phoenix</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00478-8</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>June 2003</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>224</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;24.95</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Aaron Crane</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/lrnperlorm/">
+<img alt="Cover image for Learning Perl Objects, References and Modules" src="/images/learning-perl-objects-references-and-modules-cover.png" width="145" height="190">
+</a>
+</td>
+
+</tr>
+</table>
+
+    <p>&quot;Beyond the Basics of Learning Perl&quot;, advertises the front cover, and
+    those aren't just empty words.  The <em>Learning Perl</em> in this case
+    is the book originally written by noted Perl trainer Randal L. Schwartz
+    and now in its fourth edition.  <em>Learning Perl</em> is certainly
+    popular, but since it's intended to be an introductory text, there are a
+    number of important Perl topics that it doesn't cover.  Among them are
+    objects, references, and modules, all of which are important for writing
+    larger Perl programs (and many smaller Perl programs too).</p>
+
+    <p>That's where this book comes in.  Randal (and his coauthor and
+    colleague Tom Phoenix) base the book on the materials they successfully
+    use in their Perl training courses, just as they did with <em>Learning
+    Perl</em>.  The goal is clear: to make sure that concepts are presented
+    in a way refined by the experience of teaching them to real
+    students.</p>
+
+    <p>This raises an important point.  There seems to be a widespread
+    perception that references in particular are very hard to learn in Perl
+    - possibly encouraged by the fact that <em>Learning Perl</em> avoids
+    covering them.  But that perception doesn't fit with my own experiences,
+    either as a learner or as a Perl trainer.  The most widespread problem
+    I've seen among students is dealing with the sheer quantity of material
+    to learn, especially when it comes to the syntaxes for using references.
+    But as long as references are taught in a sensible way, and without
+    presenting too much information too soon, I've found that students can
+    readily pick up the material.</p>
+
+    <p>I'm glad to report, therefore, that <em>Learning Perl Objects,
+    References, and Modules</em> covers references in a way which strikes me
+    as entirely suitable for learners.  Chapter 3 &quot;Introduction to
+    References&quot; begins with a single type of reference: array references.
+    It successfully motivates them by demonstrating a problem they solve:
+    writing a subroutine which modifies an array provided by the caller.
+    The relevant syntax is introduced gradually, but all the necessary
+    syntax is covered by the end of the chapter.  The chapter ends with a
+    brief introduction of hash references.</p>
+
+    <p>Chapter 4 &quot;References and Scoping&quot; continues, describing carefully
+    what happens when multiple references point to the same thingy, and the
+    orthogonality of references and variable scoping.  Chapter 5
+    &quot;Manipulating Complex Data Structures&quot; contains lots of useful
+    information and examples for dealing with nested data structures,
+    including the use of <code>Data::Dumper</code>.  Chapter 6 &quot;Subroutine
+    References&quot; covers subroutine references and closures in reasonable
+    depth, describing dispatch tables and callbacks as common uses of them.
+    Chapter 7 &quot;Practical Reference Tricks&quot; is a grab-bag of well-known
+    techniques using references, including sorting and recursive data
+    structures; it's particularly useful for beginners who may not have seen
+    such techniques in other languages.  All told, these four chapters
+    provide a comprehensive yet readily comprehensible grounding in the
+    non-object uses of references in Perl.</p>
+
+    <p>Chapter 8 therefore offers a introduction to object-oriented
+    programming (OO), and to the use of OO techniques in Perl.  Unusually,
+    this first chapter on OO focuses on class methods to the exclusion of
+    object instances.  While this approach seems strange at first, it does
+    make sense: students can concentrate on the concepts of methods and
+    inheritance without having to simultaneously deal with instances, or
+    with reference syntax (which is presumably still relatively fresh in
+    their minds at this stage). Chapter 9 &quot;Objects with Data&quot; introduces
+    object instances, along with instance methods, instance data, and
+    accessors. Chapter 10 &quot;Object Destruction&quot; has all the necessary
+    information on destructors, including the use of weak references to deal
+    with sets of objects that circularly refer to each other.  Chapter 11
+    &quot;Some Advanced Object Topics&quot; concludes the OO discussion with an
+    introduction to topics like <code>UNIVERSAL</code>,
+    <code>AUTOLOAD</code>, and multiple inheritance.  There's clearly much
+    more that could be said about OO in Perl - Damien Conway has an entire
+    book on the subject - but beginners are given a very good foundation in
+    both the mechanics and the idioms.</p>
+
+    <p>All this isn't to say that the book is perfect, however.  The
+    practical exercises at the end of each chapter are fine as far as they
+    go, but I suspect many students would welcome additional exercises.
+    Also, a large number of the code examples and exercises refer to
+    characters from the 1960s US television sitcom <em>Gilligan's
+    Island</em>.  It's definitely useful for students to read examples that
+    are in some way meaningful, compared to yet another
+    <code>foobar</code>-ridden sample.  But there's always a risk that
+    picking a single topic like this can cause problems for those who aren't
+    familiar with it; certainly I found the subject of these examples
+    slightly confusing.</p>
+
+    <p>I'd also question the relative levels of coverage for some of the
+    topics other than references and modules.  It's very encouraging to see
+    a chapter in a beginner's text that introduces automated testing; but
+    arguably this should be extended at the expense of the material on
+    preparing module distributions and submitting modules to CPAN.  More
+    importantly, it strikes me as particularly strange that <code>use</code>
+    is covered so lightly and so late in the book (chapter 12).  Chapter 2
+    describes how <code>require</code> can load modules, including the use
+    of packages as namespaces, but doesn't go so far as to describe
+    importing library functions into another namespace.  I'd like to see
+    much better coverage of how to create function libraries - and
+    especially of how to use them, given the importance of CPAN as a
+    repository of reusable code.</p>
+
+<b>Summary</b>
+
+    <p>A few relatively minor quibbles aside, this seems like an excellent
+    introduction to the use of references and object-oriented programming in
+    Perl.  A little more focus on using and creating libraries of functions
+    would be helpful, but all the necessary information is there.</p>
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Ch1  : Introduction
+Ch2  : Building Larger Programs
+Ch3  : Introduction to References
+Ch4  : References and Scoping
+Ch5  : Manipulating Complex Data Structures
+Ch6  : Subroutine References
+Ch7  : Practical Reference Tricks
+Ch8  : Introduction to Objects
+Ch9  : Objects with Data
+Ch10 : Object Destruction
+Ch11 : Some Advanced Object Topics
+Ch12 : Using Modules
+Ch13 : Writing a Distribution
+Ch14 : Essential Testing
+Ch15 : Contributing to CPAN
+Appendix. Answers to Exercises
+Index
+</pre>
+
+[% END %]

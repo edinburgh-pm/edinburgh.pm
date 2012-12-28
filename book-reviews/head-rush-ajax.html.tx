@@ -1,0 +1,126 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Head Rush Ajax' %]
+
+<b class="header">Head Rush Ajax</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Brett McLaughlin</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-5961-02259</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>April 2006</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>446</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;28.50</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Andy Scott</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/headra/index.html">
+<img alt="Cover image for Learning Python" src="/images/head-rush-ajax-cover.png" width="180" height="208">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+Overall:
+<p>
+A good book to start to get the whole Ajax "phenomenon" into your
+head, get it there fast and make it stick. It expects you to know
+some basics which anyone who has dabbled semi-seriously with web
+development will already know.
+<p>
+The style of the book is very good with constant repetition of the key
+areas, facts and methodologies to get them to stick in your
+brain. Added to this different methods of presenting the same
+information are used which helps even more.
+<p>
+The examples are well paced throughout and each builds to some extent
+on the previous ones helping to fix the concepts in your brain.
+<p>
+In covering all of the key areas of the whole Ajax issue, namely:
+asynchronous requests, DOM, XML and server side programming, it is a
+great entry into the whole shooting match.
+<p>
+Detailed:
+<p>
+The placement and content of the mini-FAQs throughout the book is very
+well done - they are close enough to the subject matter to ensure they
+are about the stuff just been discussed.
+<p>
+It is good to see a book about web development mention that there are
+differences between the major browsers available. I would have
+preferred to have seen FireFox used as the main development browser as
+I think it is more wide spread than Safari. That aside the focus on
+using the standards to achieve a working site is good to see to
+flatten out these differences.
+<p>
+While the book's main goal is to teach you Ajax it is pleasing to see
+that it makes a clear distinction between the DOM, XML and the
+asynchronous parts of the whole thing - great. I think that it skated
+over the XML side maybe a bit too quickly - moving onto discussing
+JSON very quickly - but then XML is such a huge area that it makes no
+sense to go into too much detail. While it did not dissect the DOM in
+its fullness it presented a reasonably detailed picture of it to let
+people get started with it all.
+<p>
+Being a professional C developer some of the code examples left me
+shaking my head a bit with "you wouldn't do it like that" - but they
+served their purpose: to show how to write JavaScript to access the
+Ajax/DOM features not to show you how to write JavaScript.
+<p>
+I found the extra section on SQL injection attack very interesting and
+would have liked to have seen more examples of real world data attacks
+- though again that would be more for a professional web developer
+book than a head cram starter.
+<p>
+It did totally leave out any in-depth discussion of the HTTP header
+values that can be manipulated by the XMLHttpRequest object or even
+mentioning them. Again, I suppose this is in keeping with its
+positioning as an entry level publication.
+<p>
+Errors:
+<p>
+Page 9: next to the block of questions it states "Answers on page 9"
+they are in fact on page 63.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Head Rush Ajax
+
+Ch  1. Using Ajax
+Ch  2. Speaking the Language
+Ch  3. She Blinded Me with Asynchrony
+Ch  4. Web Page Forestry
+Ch  4.5 A Second Helping 
+Ch  5. Saying More with POST
+Ch  6. More Than Words Can Say
+Ch  7. A Fight to the Finish
+App A. A Few Special Bonus Gifts
+App B. "All I Want Is the Code"
+Index
+
+[% END %]

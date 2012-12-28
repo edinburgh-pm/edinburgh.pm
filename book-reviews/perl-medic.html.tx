@@ -1,0 +1,94 @@
+﻿[% WRAPPER "_page.tt" WITH title = 'Book Review - Perl Medic, Transforming Legacy Code' %]
+
+<b class="header">Perl Medic - Transforming Legacy Code</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Peter J. Scott</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>Addison Wesley</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-201-79526-4</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>2004</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>312</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>£26.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.awprofessional.com/title/0201795264">
+<img alt="Cover image for Perl Medic : Transforming Legacy Code" src="/images/perl-medic-cover.jpg" width="125" height="165">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+Have you ever been given the task of maintaining someone else's Perl code? If you use Perl at work then chances are that you have. Professionally, I have adopted my fair share of horrific Perl code, so I was eager to hear what Scott had to say on the matter. My eagerness can only partially account for reading the book cover to cover in one sitting. The rest must be put down to Scott's clear, gentle and engaging exposition of the topics covered; periodically parting the waves to reveal just enough of perl's inards to explain a &quot;how&quot; or a &quot;why&quot;.
+<p>
+Being given legacy code to fix or maintain can seem overwhealming. So, early on, before setting about assessing and mangling adopted code, Scott briefly addresses what to do as soon as you're landed with someone else's code. The author also touches on the divisive but important topic of coding styles, where the message boils down to &quot;pick one&quot;.
+<p>
+In a similar vein to Tom Christiansen's &quot;<a href="http://groups.google.com/groups?selm=6bt80h%24req%241%40csnews.cs.colorado.edu">Perl Hierarchy</a>&quot;, Scott chooses to set out his own 10 level Perl coder classification table. References to this table are used sparingly throughout the book to indicate the level of &quot;sophistication&quot; of the particular topic being covered.
+<p>
+Testing and debugging module essentials are covered with such ease and clarity that the reader may have to come up with some novel excuses to avoid making use of them. As is the case with other core/utility modules mentioned in the book, the user is sensibly left to perldoc for deeper details.
+<p>
+But just how &quot;in the trenches&quot; is this book? The chapter on upgrading provides fine coverage of a real world legacy code maintainance topic; trying to spot which version of perl your adopted code was written to run under. On a per-version basis, the author provides a list of tell-tale signs/code fragments associated with each release, along with a list of new features and gotchas which were introduced with that version.
+<p>
+Scott also gives a chapter over to some well illustrated sabre-rattling on the matter of disciplined code, specifically relating to sane variable scoping and use of pragmas. Also of great use to the Perl Medic are the examples of common &quot;Cargo Cult Perl&quot; code and their cleaner, more maintainable replacements.
+<p>
+The author starts to wrap things up with some common sense advice about using CPAN modules, and on the way manages to fit in some useful code bullet-proofing suggestions which the mainstream reader might not currently be making use of.
+<p>
+Using a short Perl 4 CGI program as the patient, the Perl Medic case study puts into practice many of the tactics and lessons presented in the book. While the code sample is short (~90 lines), it is well chosen to trigger a variety of considerations in making modifications, and rather than prove boring the case study is perfectly digestible.
+
+<p>
+
+<b>Summary</b>
+<p>
+Other than a couple of minor niggles with the back cover blurb (citing an unsupported statistic and claims to be &quot;the first systematic guide to Perl software engineering&quot;) the book easily reaches it's goal of providing the reader with insightful guidance on understanding, maintaining and refactoring adopted Perl code.
+<p>
+Whether you are adopting or sorting your own legacy code, I can highly recommend this book for the professional Perl coder who has been round the block a few times.
+
+<p>
+
+<b>Table of contents</b>
+<p>
+<pre>
+	Preface
+	Ch1 : Introduction (First Response)
+	Ch2 : Surveying the Scene
+	Ch3 : Test Now, Test Forever (Diagnosis)
+	Ch4 : Rewriting (Transplants)
+	Ch5 : The Disciplined Perl Program
+	Ch6 : Restructuring (The Operating Table)
+	Ch7 : Upgrading (Plastic Surgery)
+	Ch8 : Using Modules (Generic Enhancement)
+	Ch9 : Analysis (Forensic Pathology)
+	Ch10 : Increasing Maintainability (Prophylaxis)
+	Ch11 : A Case Study
+	Ch12 : Conclusion (Prognosis)
+	App A : Source Code
+	App B : Intro to Perl
+	Bibliography
+	Index
+	About the Author
+</pre>
+
+[% END %]

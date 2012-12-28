@@ -1,0 +1,128 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Practical Development Environments' %]
+
+<b class="header">Practical Development Environments</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Matthrew B. Doar</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00796-5</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>November 2005</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>297</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;25.00</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/practicalde/">
+<img alt="Cover image for Practical Development Environments" src="/images/pde.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+&quot;A good technical environment for developing your software can make
+or break a project, or even a company.&quot;
+<p>
+What a great opening hook from the preface of a book aimed at toolsmiths
+(those responsible for developing|selecting and maintaining tools which
+support the software development process). This book attempts to help the
+reader understand the problems these tools are supposed to address while
+offering a balanced assessment of some of today's more commonly used tools.
+<p>
+The scope of the development environment addressed by the book is stated
+in terms of specific software project lifecycle activities, namely;
+implementation, testing, documentation, release and maintenance.
+<p>
+For each of these project activities, the author presents a clear and
+objective summary of the featureset of the predominant tools available.
+Typically, a brief history of each tool is offered, which I found offered
+a helpful, FAQ-esque amount of background.
+<p>
+Each tool profiled also includes cost and licensing details. However,
+this book offers more than a who's-who of development tools. Through
+the use of checklists at the end of each chapter, the author challenges
+the reader to reflect on their requirements in the area just covered and
+to assess their existing solutions.
+<p>
+The real-world nature of the questions raised clearly reflect the experience
+of the author, which I found helped draw me in and believe this was a book
+written by a toolsmith for toolsmiths.
+<p>
+In a discussion of project concepts, the author hammers home the benefits
+of automation and how environment implies integration. While highlighting
+the clear problem of &quot;what happens next when one component is
+unavailable&quot;, he cites the web and email as the easiest candidates
+for environment glue. However, he surrenders to the fact that &quot;robust
+and tightly coupled integration schemes&quot; for development tools in
+general is beyond the scope of this book, noting also that such super glue
+is outwith the scope of the problem domain tackled by the book - ie.
+software projects with less than 1 million lines of code and under 200 people.
+<p>
+Throughout, there are plenty of examples of problems, such as the horrors
+which can arise in poor build systems.  Fore warned is fore armed, and
+these 'heads up' sections will serve the reader well, be it as an eye
+opener or a reminder.
+<p>
+However, the examples aren't all gloomy. I enjoyed the section where the
+author shared which tools were used for writing the book and how they
+interacted with the tools used by O'Reilly to publish all of their titles.
+<p>
+Besides tools' pros and cons, there is also guidance on tool migration and
+various human factors, such as; colour blindness and UI design,
+communication, dealing with awkward people and how to deal with the politics
+of commit rights.
+<p>
+
+<b>Summary</b>
+<p>
+I would say this is an ideal book for the objective overview of tools
+used in software development environments, offering readers a fantastic
+companion for evaluating or constructing practical development environements.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Practical Development Environments
+Ch  1. Introduction
+Ch  2. Project Basics
+Ch  3. Project Concepts
+Ch  4. Software Configuration Management
+Ch  5. Building Software
+Ch  6. Testing Software
+Ch  7. Tracking Bugs
+Ch  8. Documentation Environments
+Ch  9. Releasing Products
+Ch 10. Maintenance
+Ch 11. Project Communications
+Ch 12. Politics and People
+App A. How Tools Scale
+App B. Resources
+Index
+</pre>
+
+[% END %]

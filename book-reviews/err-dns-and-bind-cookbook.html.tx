@@ -1,0 +1,70 @@
+﻿[% WRAPPER "_page.tt" WITH title = 'Book Review - DNS and BIND Cookbook' %]
+
+<b class="header">DNS &amp; BIND Cookbook</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Cricket Liu</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00410-9</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>October 2002</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>222</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>£24.95 (paper)</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/dnsbindckbk/">
+<img alt="Cover image for Using SANs and NAS"
+src="/images/data-munging-with-perl.jpg" width="100" height="120">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+&quot;I know Kung Fu&quot;. Okay I don't really, and I'm not Neo, but that
+was the phrase which sprang to mind when I was done with this finger thick
+book from O'Reilly.
+<p>
+
+<b>Summary</b>
+<p>
+
+<b>Table of contents</b>
+<p>
+<pre>
+Ch  1 : Getting Started.
+Ch  2 : Zone Data.
+Ch  3 : BIND Name Server Configuration.
+Ch  4 : Electronic Mail.
+Ch  5 : BIND Name Server Operations.
+Ch  6 : Delegation and Registration.
+Ch  7 : Security.
+Ch  8 : Interoperability and Upgrading.
+Ch  9 : Resolvers and Programming.
+Ch 10 : Logging and Troubleshooting.
+Ch 11 : IPv6
+</pre>
+
+[% END %]

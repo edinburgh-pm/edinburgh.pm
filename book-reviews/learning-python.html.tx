@@ -1,0 +1,136 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Learning Python, Second Edition' %]
+
+<b class="header">Learning Python, Second Edition</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Mark Lutz &amp; David Ascher</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00281-5</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>December 2003</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>620</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;24.95</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Gavin Sandie</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/lpython2/index.html">
+<img alt="Cover image for Learning Python" src="/images/learning-python-cover.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+A wood rat adorns the cover of Learning Python and it looks slightly scared,
+I think the tagline may cause that fear. &quot;Object-Oriented Programming&quot;
+it certainly scared me. Thankfully 'Learning Python' starts off gently with the
+first few chapters introducing the language and telling you why it is a
+great language to use and listing many examples of its use.
+<p>
+Sections two and three cover the basic objects, syntax and loops. Coming to
+Python as a Perl hacker I found the syntax a bit strange at first but you soon
+settle into it. It was nice to see documentation presented early, showing
+you how to use Python's features to document your code and how to use that
+documentation from inside an interactive session.
+<p>
+Functions and modules are well covered any by the time you finish those
+sections you can be writing very functional Python scripts. However the main
+meat of the book was the section on object oriented programming (OOP). It
+started off with a general introduction to what OOP is and moved slowly
+into how it is implemented. I was glad to see that it built on the
+functions and modules previously covered, and really wasn't as scary as
+I expected.
+<p>
+The final sections covered one of my favourite parts of Python, it's exception
+handling. This was well presented and the way that Python lets you deal with
+exceptions almost makes me want to use it in all my day to day scripts. It
+finishes off with some good examples of common tasks, showing you built-in
+functions and small code snippets to perform those tasks. Also included is
+a good look at Python resources, covering; frameworks, IDEs and sources of
+community information.
+<p>
+Overall I found the book to be an easy going read and each of the eight parts
+finishes up with a good selection of excercises on the topics just covered.
+There are solutions and small discussions on these exercises in appendix B.
+<p>
+My only concern about this version of the book would be it's age, this is the
+second edition and was published in December 2003. While it covers version 2.3
+it mentions that this was the upcoming release. As the current version is 2.5.1
+I worried that some new important features may be missed out, however I can
+see that the third edition is just about to be released which I'm sure would
+address these worries. There is also a large list of errata, mostly typos, but
+there are a few mistakes in the code examples.
+
+<p>
+
+<b>Summary</b>
+
+<p>
+
+I found this book a great introduction to Python and would reccomend it to
+anyone looking to learn the language. An updated copy that covers the latest
+versions of Python would be good but I can see this is on the horizon.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Learning Python, 2nd Edition
+
+Ch  1. A Python Q&amp;A Session
+Ch  2. How Python Runs Programs
+Ch  3. How You Run Programs
+Ch  4. Numbers
+Ch  5. Strings
+Ch  6. Lists and Dictionaries
+Ch  7. Tuples, Files, and Everything Else
+Ch  8. Assignment, Expressions, and Print
+Ch  9. if Tests
+Ch 10. while and for Loops
+Ch 11. Documenting Python Code
+Ch 12. Function Basics
+Ch 13. Scopes and Arguments
+Ch 14. Advanced Function Topics
+Ch 15. Modules: The Big Picture
+Ch 16. Module Coding Basics
+Ch 17. Module Packages
+Ch 18. Advanced Module Topics
+Ch 19. OOP: The Big Picture
+Ch 20. Class Coding Basics
+Ch 21. Class Coding Details
+Ch 22. Designing With Classes
+Ch 23. Advanced Class Topics
+Ch 24. Exception Basics
+Ch 25. Exception Objects
+Ch 26. Designing with Exceptions
+Ch 27. Common Tasks in Python
+Ch 28. Frameworks
+Ch 29. Python Resources
+App A. Installation and Configuration
+App B. Solutions and Exercises
+Index
+
+[% END %]

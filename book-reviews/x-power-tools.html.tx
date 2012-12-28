@@ -1,0 +1,143 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - X Power Tools' %]
+
+<b class="header">X Power Tools</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Chris Tyler</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-10195-3</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>December 2007</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>270</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;24.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Gavin Sandie</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/9780596101954/index.html">
+<img alt="Cover image for X Power Tools" src="/images/x-power-tools-cover.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+After almost 10 years of using *nix systems as my primary work environment
+I've spent a lot of time tinkering with X. Over the years I've noticed things
+getting easier and less dangerous as hardware has changed, so I eagerly
+approached this book to fill in any blanks that I'd missed over the years.
+<p>
+This is the first power tools book I've read and I found the format worked
+very well. Part one covers a brief history of the server and then moves onto
+articles focused on getting you and the server up and running, with good
+explanations of each section of the config file.
+<p>
+At one point there is a discussion on running X within X using the Xnest
+application. The author notes that Xnest hasn't been updated for a few years
+and then mentions a similar tool called Xephyr. I was surprised that more
+coverage wasn't given to Xephyr, or that no link was given to the reader
+should they want to find out more about it.
+<p>
+The second part covered the X clients. There were a range of different tools
+covered with examples of how these can be used with scripts in creative ways
+(using the xbell with iwconfig to create an application to help position
+wireless routers based on signal strength was my favorite).
+<p>
+I was glad to see that the standard X versions of the tools were covered first,
+with the Gnome/KDE versions mentioned afterwards. The section finished with
+desktop systems, window managers and session managers. I enjoyed the articles
+on these systems, especially when virtual windows were discussed as I was always
+curious as to how they worked. I came out of this section armed with the knowledge
+of a few new X tools which was rather satisfying.
+<p>
+Part three covered fonts, colours and keyboards. A lot of this section touched
+on configuring X for use with different fonts, hardware keyboards and software
+keyboard layouts. There were techniques presented for using X with multiple
+keyboard layouts at once, something I didn't know was possible, but something
+I can definitely see as being useful. It didn't take me long to get up and
+running with a modified keyboard layout which I hope will make me slightly
+more productive.
+<p>
+The last two parts covered remote access to the X server, and special
+configurations. I was especially interested in remotely accessing the X
+server and running applications remotely. Running applications remotely is
+something I've done for years but I've never fully understood how it all
+works, however, now I do.
+<p>
+Remote X terminal services (using XDMCP) is one of those things I've known about
+but never had cause to use and I've always though would be tricky to get up and
+running. After reading how it can be implemented I am surprised at how easy it
+all sounds and am now trying to see if there is anywhere I an implement it in
+my home or work.
+<p>
+While I enjoyed the discussion on VNC I was slightly disappointed that there
+was no mention of the NX server and FreeNX. Perhaps this would be something
+covered in the second edition. The special configuration section talks about
+building an X based kiosk station and creating X based video walls.
+<p>
+Being a first edition there is currently no errata, I spotted one typo that I
+have submitted, but I didn't spot any other major faults.
+<p>
+
+<b>Summary</b>
+
+<p>
+Overall I was impressed with the range of X based tools that were covered in
+this book. Everything was well cross referenced throught, allowing you to
+dip into any of the articles that took your fancy.
+<p>
+I think that there
+is something in this book for X users of all levels, though I felt that a
+newcomer to X would get a lot more from the book than a seasoned X
+administrator.
+<p>
+I am glad to have this book in my library and would defiantly
+recommend it to anyone looking to understand more about the X system,
+especially for those who are using is day to day on their default desktop.
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+X Power Tools
+
+Ch  1. Introduction to the X Window System
+Ch  2. Starting a Local X Server
+Ch  3. Basic X.org Configuration
+Ch  4. Advanced X.org Configuration
+Ch  5. Using the X Server
+Ch  6. X Utility Programs
+Ch  7. Running X Clients
+Ch  8. Session Managers, Desktopo Environments and Window Managers
+Ch  9. Color
+Ch 10. Core Fonts: Fonts the Old Way
+Ch 11. Pango, Xft, Fontconfig and Render: Fonts the New Way
+Ch 12. Keyboard Configuration
+Ch 13. Remote Access
+Ch 14. Using VNC
+Ch 15. Building a Kiosk
+Index
+</pre>
+
+[% END %]

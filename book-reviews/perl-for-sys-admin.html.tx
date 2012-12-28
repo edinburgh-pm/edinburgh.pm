@@ -1,0 +1,127 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Perl for System Administration' %]
+
+<b class="header">Perl for System Administration</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails" valign="top">Authors</td><td>David N. Blank-Edelman</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>1-56592-609-9</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>July 2000</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>430</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;24.95</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/perlsysadm/">
+<img alt="Cover image for Perl Hacks" src="/images/perl-for-sys-admin-cover.png" width="180" height="236">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+
+Larry initially created Perl to ease systems data munging-related woes, so
+this book could be viewed as the use of the language in its birthplace.
+Any expectations of wizardry conjoured by this inceptive combination
+are soon dispelled.
+
+<p>
+
+What is presented here is a useful but thin patchwork of sys admin tasks,
+with just enough code, hints and references to point the reader in a reasonable
+direction to get the job done. To that extent, the book can be said to
+deliver on its stated desire to make you more productive.
+
+<p>
+
+The publisher is hoping to market to all levels of admins and I understand
+the need to cater to beginners and to provide context for the code and
+tactics offered. However, given the volume of exposition of various
+systems-related technologies and protocols, I would suggest that the
+target readership be more realistically aimed at defacto or inexperienced
+sys admins.
+
+<p>
+
+Quite often the solutions boiled down to 'run a system command from perl,
+then capture and munge its output'. Which may well be the appropriate solution,
+but in such cases I increasingly found myself thinking "is that it!?".
+
+<p>
+
+That said, there is sufficient cross-platform coverage here to ease the
+gotchas of the otherwise experienced admin facing simple tasks in an
+unfamiliar environment. While this aspect is not heavily promoted, I feel
+it is where the real shelf-life value lies in this text.
+
+<p>
+
+Finally, I may have been overly hungry for some entertainment following
+what was an unsatisfying read, but the real world tale of Perl being used
+in an emergency to glue an investigative tool together failed to deliver
+any real sense of drama or humour, which may have resulted in a more
+memorable lesson.
+
+<p>
+
+<b>Summary</b>
+
+<p>
+
+If you don't know much about the tools or technologies relevant to systems
+administration then this book will likely deliver a reasonable grounding in
+many of them. Otherwise there is little here to impress and you will
+probably be better served by CPAN and other online sources.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Perl for System Administration
+
+About the Authors
+Preface
+Ch  1. Introduction
+Ch  2. Filesystems
+Ch  3. User Accounts
+Ch  4. User Activity
+Ch  5. TCP/IP Name Services
+Ch  6. Directory Services
+Ch  7. SQL Database Administration
+Ch  8. Electronic Mail
+Ch  9. Log Files
+Ch 10. Security and Networking Monitoring
+App A. The Five-Minute RCS Tutorial
+App B. The Ten-Minute LDAP Tutorial
+App C. The Eight-Minute XML Tutorial
+App D. The Fifteen-Minute SQL Tutorial
+App E. The Twenty-Minute SNMP Tutorial
+Index
+</pre>
+
+[% END %]

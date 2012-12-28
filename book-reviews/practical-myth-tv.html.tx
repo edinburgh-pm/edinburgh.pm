@@ -1,0 +1,129 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Practical MythTV' %]
+
+<b class="header">Practical MythTV: Building a PVR and Media Center PC</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Stewart Smith &amp; Michael Still</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>Apress</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>1-59059-779-6</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>May 2007</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>358</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;20.99</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Murray Walker</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.apress.com/book/bookDisplay.html?bID=10245">
+<img alt="Cover image for Practical Myth TV" src="/images/myth-tv-cover.png" width="120" height="159">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+MythTV is a wonderful tool when it works, with a rich set of features and
+abilities.  Like any other good PVR, it does a great job at recording the
+programmes you like and letting you watch them when you want.  As often as
+you want.  Where you want.  Even for non couch potatoes, it really does
+improve life.
+<p>
+With the current stable release (v0.20) it beats most of the established
+(commercial, closed) competition for features.  The recordings are mpg
+files, easy to access, copy, transcode, burn to DVD or play on another
+device.  Commercial skipping, while not perfect, really is a big win and
+well worth having (and you notice it a lot more when you use something
+other than MythTV).  You can add multiple tuners to record multiple channels
+simultaneously (you will most likely max out your harddisk i/o before you
+hit cpu or usb bus bandwidth limits).  Multiple MythTV devices can simply
+be networked together, allowing playback in multiple locations and even
+sharing the workload between themselves to allow even more simultaneous
+recording.  MythWeb lets you control and access everything via a browser.
+There is even a plugin that allows you to use your MythTV box as SIP VoIP
+phone.  I have no idea why you would want to though.
+<p>
+That is what I can do now.  The potential is mouth watering.  It is
+possible, although not easy, to integrate with content you have (legally)
+downloaded.  Have it be your music center.  Stream your video over an ADSL
+or broadband connection to where ever you are in the world.  It doesn't
+produce amazing quality but that is entirely the fault of limited upload
+bandwidth on adsl.  When someone gets around to integrating (in a Steve
+Jobs style) lots of MythTV boxes with a social 2.0 website or a bittorrent
+tracker, things could go a little ballistic.  All this is possible now if
+you know what you are doing and are prepared to fiddle.  A lot.
+<p>
+But nirvana is not without its problems.  MythTV is mind bogglingly
+(and unnecessarily imho) complicated to get setup and understand and
+amazingly easy to screw up and get wrong.  It makes configuring and
+compiling your own linux kernel look positively easy.
+<p>
+For instance, the compulsory X11 based setup program, which throws away
+all the wisdom of established desktop UIs and opts to re-engineer and
+re-implement a complex and confusing alternative to a simple text based
+configuration file.  Nor does all this complexity achieve the sort of
+setup almost any other traditional tv equipment manages - turn it on, run
+auto-tune, watch tv.
+<p>
+And so, the book.
+<p>
+It covers all the important parts, and it gives as much detail as could
+reasonably be squeezed into a tech sized volume.  It is clearly written,
+well layed out.
+<p>
+A lot of the information you will be able to find on the MythTV wiki, or
+so long as your Google-fu has not gone brain dead from watching too much TV.
+On the plus side, it is a lot easier to read when collected together and
+presented in order.  The downside is that the book is going to date
+quickly and cannot hope to cover every possible configurable variation.
+<p>
+Even so, the book had more than a few nuggets of gold I had not learned
+after extensive web research.
+<p>
+If you play with MythTV this book is going to be useful.  Sadly, it is
+not going to make the process painless.
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Practical MythTV
+Ch  1. Introducing MythTV
+Ch  2. Getting Ready for the Install
+Ch  3. Installing MythTV
+Ch  4. Recording TV
+Ch  5. Performing Advanced TV Recording
+Ch  6. Exploring MythTV
+Ch  7. Setting Up MythTV Themes
+Ch  8. Running Remote Frontends
+Ch  9. Installing Other Plug-Ins
+Ch 10. Expanding MythTV
+Ch 11. Using MythWeb: A Web Interface to MythTV
+Ch 12. Working with DVDs
+Ch 13. Controlling MythTV over the Network and On-Screen Displays
+Ch 14. MythPhone: Using VoIP with MythTV
+Ch 15. Joining the MythTV Community
+Index
+</pre>
+
+[% END %]

@@ -1,0 +1,110 @@
+[% WRAPPER "_page.tt" WITH title = 'Book Review - Games, Diversions &amp; Perl Culture' %]
+
+<b class="header">Games, Diversions &amp; Perl Culture</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Authors</td><td>Jon Orwant (editor)</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td>O'Reilly</td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>0-596-00312-9</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>May 2003</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>569</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>&pound;28.50</td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Rory Macdonald</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.oreilly.com/catalog/tpj3/">
+<img alt="Cover image for Games, Diversions &amp; Perl Culture" src="/images/best-of-tpj-vol3.png" width="145" height="190">
+</a>
+</td>
+
+</tr>
+</table>
+
+<p>
+
+This book, the last of a three volume series of collected articles from The Perl Journal, features 47 articles which tip the scales more towards Perl entertainment while remaining informative.
+
+<p>
+
+The book groups the articles into sections covering Culture, Science, Language, Games, Poetry, Politics and Obfuscated Perl. For the most part each article is an easy, entertaining and occasionally inspiring read - making it ideal toilet-break reading.
+
+<p>
+
+Early fun includes the behind the scenes story of all The Perl Journal cover photos and how to make accurate sundials. It's not often I see Perl articles which help you make something functional and physical.
+
+<p>
+
+The Science section has a great piece about &quot;How Perl Saved the Human Genome Project&quot;, and the &quot;Perl Data Language&quot; - proving that huge data sets can be efficiently handled with Perl (extensions).
+
+<p>
+
+For me, the Language section started off with a fun article on useful Infobots serving FAQ duty on IRC, but later sections started to get a little too ... &quot;non-toilet material&quot;, but were still accessible. In the middle ground I thoroughly enjoyed the very practical &quot;Smart Matching For Human Names&quot; and was impressed with the simplicity and usefulness of &quot;Learning Japanese with an HTML Filter&quot; language learning support tool for use with web content.
+
+<p>
+
+The Games section had me flashing back to days of Zork with the article on &quot;The Rezrov Infocom Game Interpreter&quot;, which at the end snapped me back to reality with a discussion highlighting performance differences between OO method calls, regular subroutine calls and inline code. Certainly food for thought in environments featuring heavy calling of OO methods.
+
+<p>
+
+Between the Games &amp; Quizzes and Poetry sections there are details of 7 quizzes/competitions. The Perl/Internet quiz shows are a good blend of fun and geek, while &quot;The Perl Wizard's Quiz&quot; offers a more full-on Perl flavour, with helpful feedback on why relevant multiple choice options are right or wrong.
+
+<p>
+
+The fun takes a bit of a bath when the section on Politics rolls around - with articles split between a discussion of the problems with the US voting system and a look at an implementation of a &quot;Secure Internet Voting&quot; system.
+
+<p>
+
+The book winds up with the fun but head-messing &quot;Obfuscated Perl&quot; section, where there are loads of interesting Perl tricks on display - although it would have been nice to have the entrants' SOLUTIONS files supplied in an annex to ease the untangling of the winning code presented.
+
+<p>
+
+<b>Summary</b>
+
+<p>
+
+The back cover blurb finishes with; &quot;<i>Of the three volumes of the Best of the Perl Journal, this is arguably the most useless. It is also by far the most entertaining, and the one that best captures the spirit of Perl.</i>&quot; - and that's right on the money.
+
+<p>
+
+I highly recommend this refreshingly fun book for everyone into Perl.
+
+<p>
+
+<b>Table of contents</b>
+
+<p>
+
+<pre>
+Games, Diversions &amp; Perl Culture
+Part 1. Culture
+Part 2. Science
+Part 3. Language
+Part 4. Games and Quizzes
+Part 5. Poetry
+Part 6. Politics
+Part 7. Obfuscated Perl
+About the Authors
+Index
+</pre>
+
+[% END %]

@@ -1,0 +1,209 @@
+﻿[% WRAPPER "_page.tt" WITH title = 'Book Review - Win32 Perl Programming: The Standard Extensions' %]
+
+<b class="header">Win32 Perl Programming: The Standard Extensions. 2nd Edition.</b>
+
+<table class="booktable">
+<tr>
+
+<td>
+<table class="booktable">
+<tr>
+<td class="bookdetails">Author</td><td>Dave Roth</td>
+</tr>
+<tr>
+<td class="bookdetails">Publisher</td><td><a href="http://www.newriders.com/">New Riders</a></td>
+</tr>
+<tr>
+<td class="bookdetails">ISBN</td><td>1-57870-216-X</td>
+</tr>
+<tr>
+<td class="bookdetails">Date</td><td>September 10, 2001</td>
+</tr>
+<tr>
+<td class="bookdetails">Pages</td><td>724</td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>£38.99 retail<td>
+</tr>
+<tr>
+<td class="bookdetails">Price</td><td>~£28 from Amazon.co.uk<td>
+</tr>
+<tr>
+<td class="bookdetails">Reviewer</td><td>Anthony Randell</td>
+</tr>
+</table>
+</td>
+
+<td>
+<a href="http://www.roth.net/books/extensions2/">
+<img alt="Cover image for Win32 Perl Scripting : Standard Extensions"
+src="/images/win32-perl-programming-std-ext-cover.jpg" width="125" height="188">
+</a>
+</td>
+
+</tr>
+</table>
+
+
+<p>
+
+<b>Purpose:</b> To explain the standard Win32 extensions for Perl and to update
+the first edition.  
+<p> 
+<b>Audience:</b> People with some knowledge of Perl and Win32. Designed to
+be accessible to beginners but not to teach Perl or Windows basics.
+The scripts are clearly explained and laid out in a simple coding style.
+<p>
+<b>Summary:</b> This is a much thicker tome than the companion Administrator's
+Handbook. It focuses in detail on functions and the relevant useful
+Win32 extensions, where as the Administrator's Handbook was more of a
+&quot;Win32 Cookbook for Admins&quot;.
+<p>
+There's a wealth of useful information, this book has the potential to
+save you a lot of time. Dave Roth brings a great deal of experience
+to this book and it shows. He mentions many common pitfalls that
+appear to be the result of much pain, sweat and curses!
+<p>
+You could argue some of the module choices but the ones mentioned are
+all useful. There's a number of new modules out that I suspect
+weren't around at the time of publishing, however this book is still
+relevant.
+<p>
+<b>Comments:</b>
+<p>
+The code examples do not use the strict pragma because of the use of
+constants in the Windows API and the extensions. If you're lending
+this book to a beginner you may want to gently suggest they use strict and
+declare constants using the constant pragma (e.g &quot;use constant
+Win32Xxx ==> Whatever&quot;).
+<p>
+<b>Contents:</b>
+<p>
+<pre>
+Chapter 1  - Why Perl
+Chapter 2  - Network Administration
+Chapter 3  - Administration of Machines
+Chapter 4  - File Management 
+Chapter 5  - Automation
+Chapter 6  - Communication
+Chapter 7  - Data Access
+Chapter 8  - Process
+Chapter 9  - Console, Sound and Administrative Win32 Extensions
+Chapter 10 - Writing Your Own Extension
+Chapter 11 - Security
+Chapter 12 - Common Mistakes and Trouble Shooting
+Appendix A - Win32 Perl Resources
+Appendix B - Win32::ODBC Specific Tables
+Appendix C - Win32 Network Error Numbers and Their Descriptions
+</pre>
+<p>
+
+<b>Chapter 1:</b>
+<p>
+This provides advocacy for using Perl (great for handling management 
+types) and some useful notes on installing modules and configuring 
+Win32 machines.
+<p>
+There were some useful examples of Perl/Win error handling and formatting -
+this is helpful as it's easy to get confused as to where you should be
+looking for errors.
+<p>
+<b>Chapter 2:</b>
+<p>
+Network Administration. A lot of the interfaces used to retrieve
+information about domains, shareable resources, containers et al. are
+cryptic.  Also a number of constants are used - this section
+documents them thoroughly, as well as the concepts and using the 
+extensions.
+<p>
+<b>Chapter 3 and 4:</b>
+<p> 
+Very similar information to Dave Roth's Win32 Administrators Handbook.
+Still useful, even if you have both books.  
+<p>
+The Administrator's handbook was more focused on recipes to make an
+administrator's life easier, while this book is more focused on how
+to use the various Win32 modules to manipulate and report on
+files/groups/accounts/machines.
+<p>
+<b>Chapter 5:</b>
+<p>
+OLE/COM Automation. The concepts (which are complex and confusing, to me at
+least) are described clearly and well. Several subtle problems are described
+and I can see this section saving much time and effort.
+<p>
+<b>Chapter 7:</b>
+<p>
+Data Access. DBI is very briefly discussed as a worthy alternative,
+however Win32::ODBC is covered because it comes as standard with the
+ActivePerl distribution. DBI does have an ODBC driver but this is not
+as fully-featured as Win32::ODBC.
+<p>
+There are several pages providing a potted summary on SQL that
+probably won't add value to most. If you're new to SQL they will
+be useful.  
+<p>
+Dave Roth, again, covers a few subtle &quot;gotchas&quot; in ODBC such as
+inconsistencies in escaping wildcards between drivers, outer join
+support, parameter binding, bugs in some FetchRow implementations etc.
+<p>
+He describes all the functions you'd expect; as well as meta data,
+managing datasources, and some more advanced features including
+cursors and managing rowset sizes for optimum network performance.
+<p>
+The ODBC API will be familiar to non-Perl programmers, and Win32::ODBC
+ties in nicely with the OLE automation discussed in chapter 5.
+There's plenty of material available for DBI so, this chapter is very
+useful.
+<p>
+<b>Chapter 8:</b>
+<p>
+This provides a thorough description of the various Win32 modules
+dealing with processes, the constants used, and some useful examples.
+<p>
+<b>Chapter 9:</b>
+<p>
+Various miscellanous extensions including console buffers which are useful for 
+basic user interaction.  These provide a simple and quick front end to perl
+scripts and services with some useful features (multiple buffers,
+password entry hiding, colour, titles).
+<p>
+Also covered are interfacing to the Win32 API, which allows calls into
+DLL's from within a perl script.  This expands on the Win32::API
+documentation usefully, including more details on how to pass a
+pointer to a structure in C and some handy miscellaneous functions for
+memory allocation and ANSI/Unicode conversion.
+<p>
+<b>Chapter 10:</b>
+<p>
+Extending Perl. I am not a Perl guts hacker so I can't comment on the
+accuracy of the information, however the chapter was well laid out and
+seemed thorough to me. This would be useful for core perl programmers
+and non-perl C coders having to create interfaces. This has given me a
+better understanding of how the Perl core works.
+<p>
+<b>Chapter 11:</b>
+<p>
+Security. This is very esoteric under Win32. Fortunately this chapter
+is nice and fat and covers most things you could possibly want to know.
+<p>
+<b>Chapter 12:</b>
+<p> 
+This has a good section on resources for trouble shooting as well as a 
+big list of common mistakes
+<p>
+<b>Appendix A:</b>
+<p>
+Contains an excellent list of resources.  Most experienced Perlies
+will be familiar with some of these but still very handy.
+<p>
+<b>Links:</b>
+<p>
+<a href="http://www.roth.net/books/extensions2/">http://www.roth.net/books/extensions2/</a> - Dave Roth's site including some errata and various mailing lists, scripts (plus the code for the book) and other useful stuff.
+<p>
+<a href="http://www.newriders.com/">http://www.newriders.com/</a> - Publishers. 
+
+<p>
+
+
+[% END %]
