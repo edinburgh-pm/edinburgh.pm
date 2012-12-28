@@ -6,6 +6,7 @@
 body {
   font-size: 10pt;
   font-family: sans-serif;
+  line-height: 1.3em;
   padding: 0px;
   margin: 0px;
   background: #fff;
@@ -42,6 +43,10 @@ table {
   width: 640px;
 }
 
+li {
+  padding-bottom: 0.5em;
+}
+
 .booktable {
   width: 300px;
 }
@@ -71,20 +76,6 @@ p.flush {
 .blue-bold {
   font-weight: bold;
   color: #369;
-}
-
-.navigation {
-  background-image: url("/images/gray-slide.png");
-  background-repeat: repeat-y;
-  background-color: #fff;
-  color: #000;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-size: 8pt;
-  font-family: sans-serif;
-  text-align: left;
-  padding-left: 15px;
 }
 
 .review_delivered {
