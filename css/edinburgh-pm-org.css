@@ -65,7 +65,7 @@ p.flush {
 }
 
 .navigation {
-    background-image: url("http://edinburgh.pm.org/images/gray-slide.gif");
+    background-image: url("/images/gray-slide.png");
     background-repeat: repeat-y;
     background-color: #ffffff;
     color: #000000;
