@@ -1,0 +1,34 @@
+#!/usr/bin/env perl
+
+use common::sense;
+use autodie;
+use Encode qw<encode_utf8>;
+use Path::Class qw<file>;
+use Plack::App::File;
+use Plack::MIME;
+use Text::Xslate;
+
+my $root = file(__FILE__)->dir->parent;
+my $tx   = Text::Xslate->new(
+    syntax => 'TTerse',
+    path   => ['/', $root],
+);
+
+my $file_app = Plack::App::File->new(root => $root)->to_app;
+
+my $app = sub {
+    my $env = shift;
+
+    my $path = $env->{PATH_INFO} || '/';
+    $path =~ s{/ \z}{/index.html}xms;
+
+    my $source = $root->file("$path.tx");
+
+    return $file_app->($env)
+        if $path !~ /\.html \z/xms || !-e $source;
+
+    my $html = $tx->render($source->stringify, {});
+    my $binary = encode_utf8($html);
+
+    return [200, ['Content-type', 'text/html; charset=utf-8'], [$binary]];
+};
