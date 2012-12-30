@@ -14,7 +14,18 @@ To build the site, run:
 
 That will generate a html file for each *.html.tx template that exists.
 
-You can install the Perl modules needed by script/build_static by running
+Alternatively, you can run a local development server which will automatically
+generate the templated HTML output on the fly (so you can flip between editing
+a template file and reloading the page in your browser, without running the
+script manually). Run this command:
+
+    plackup scripts/dev_server
+
+and visit the URL it suggests. The [plackup command][https://metacpan.org/module/plackup]
+also accepts various options to configure where it listens, and so on.
+
+You can install the Perl modules needed by script/build_static and
+script/dev_server by running
 
     cpanm --installdeps .
 
