@@ -14,6 +14,13 @@ To build the site, run:
 
 That will generate a html file for each *.html.tx template that exists.
 
+You can install the Perl modules needed by script/build_static by running
+
+    cpanm --installdeps .
+
+If you don't have cpanminus installed already, you can find it [on
+CPAN][https://metacpan.org/module/App::cpanminus].
+
 The .html files are not tracked in git -- the .html.tx files are, and those are used to 
 generate the site via script/build_static
 
