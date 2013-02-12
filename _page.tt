@@ -18,7 +18,7 @@
 
     <div><a href="/"><img alt="Edinburgh Castle" src="/images/edinburgh-pm-org-banner.png" width=535 height=91></a></div>
 
-    <div class=content>
+    <div class="content[% IF page_class; ' '; page_class; END %]">
       [% content %]
     </div>
 
