@@ -82,3 +82,37 @@ p.flush {
   color: #389e48;
   font-weight: italic;
 }
+
+/* startup.html */
+div.content.startup p {
+  line-height: 1.7em;
+}
+div.content.startup {
+  margin-bottom: 20em;
+}
+div.content.startup .code {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  padding: 0.25em 1em 0.2em 2em;
+  margin-left: 2em;
+  line-height: 1.5em;
+}
+div.content.startup .instructions {
+  margin-left: 2em;
+}
+.audience,
+.non-deps {
+  list-style: none;
+  padding-left: 1em;
+}
+.audience li span,
+.non-deps li span {
+  padding-right: 0.5em;
+}
+.audience li span { color: #090 }
+.non-deps li span { color: #900 }
+span.tooltip {
+  cursor: pointer;
+  border-bottom: 2px dotted #999;
+}
