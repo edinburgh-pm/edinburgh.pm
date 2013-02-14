@@ -8,7 +8,7 @@
   <h3>Audience</h3>
   <ul class=audience>
     <li><span>✓</span> You've <b>never</b> used Perl before &amp; know nothing about it.  Welcome!</li>
-    <li><span>✓</span> You haven't used Perl in <b><code>$years</code></b>.  Welcome back!  It's gotten a lot better.</li>
+    <li><span>✓</span> You haven't used Perl in <b><code>$years</code></b>.  Welcome back!  This is not your dad's Perl any more.</li>
     <li><span>✓</span> You're just curious.</li>
   </ul>
 
