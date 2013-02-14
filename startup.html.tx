@@ -83,10 +83,12 @@ https://github.com/gugod/App-perlbrew/pull/275
 <p>You've now got a shiny new, modern version of the latest stable Perl. So what next?</p>
 
 <h4>cpanm</h4>
-<p>cpan is a huge collection of open source, massively well tested libraries of code you can use to do all kinds of things. [Mojo, ...]</p>
-<p><b>cpanm</b> is how you get them installed.  It's like Ruby's <code>gems</code> or Python's <code>??</code></p>
-<p>This will install a rockin' web development environment, called Mojolicious.  Just type it into your Terminal window.</p>
-<pre><code>cpanm Mojolicious</code></pre>
+<p><a href="http://www.cpan.org/">CPAN</a> is a huge collection of open source, massively well tested libraries of code you can use to do all kinds of things.</p>
+<p>There are libraries (often called packages, or modules) for doing a lot of things.  A good rule of thumb:</p>
+<blockquote>Check if there is something on CPAN that solves your problem first.</blockquote>
+<p><b>cpanm</b> is the command you use to install stuff from <a href="http://www.cpan.org/">CPAN</a>.  It's like Ruby's <code>gems</code> or Python's <code>??</code></p>
+<p>For example, if you are interested in building web apps you will want to check out <a href="http://mojolicio.us/">Mojolicious</a>.  Just type this into your Terminal window.</p>
+<div class=code><pre><code>cpanm Mojolicious</code></pre></div>
 
 <h4></h4>
 <h4></h4>

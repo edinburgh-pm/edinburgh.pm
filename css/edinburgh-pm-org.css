@@ -101,6 +101,9 @@ div.content.startup .code {
 div.content.startup .instructions {
   margin-left: 2em;
 }
+div.content.startup blockquote {
+  font-weight: bold;
+}
 .audience,
 .non-deps {
   list-style: none;
