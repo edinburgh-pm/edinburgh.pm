@@ -107,6 +107,16 @@ https://github.com/gugod/App-perlbrew/pull/275
   <li>The <a href="http://www.onyxneon.com/books/modern_perl/index.html">Modern Perl</a> book is an <i>excellent</i> read for beginners and especially good for people who haven't used Perl in a few years.  Seasoned pros may also get a lot out of it.  It is available as a <b>free</b> PDF download, or read the whole thing <a href="http://modernperlbooks.com/books/modern_perl/chapter_00.html">via the website</a>.</li>
 </ul>
 
+<h3>FAQs</h3>
+<ul>
+  <li>Perl 5 vs Perl 6</li>
+  <li>Compiling from Source vs OS supplied versions</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
 <marcos suggestions>
 ?padre?
 ??
