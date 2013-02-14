@@ -36,7 +36,7 @@
   <ul>
     <li>Download and install <a href="http://strawberryperl.com/">Strawberry Perl</a>.  There is a <a href="http://www.youtube.com/watch?v=1RHYPM6e55o">video guide</a> if you want to follow along.</li>
     <li>That's it.  Really!</li>
-    <li>(Optionally) You might want to consider installing <code>cpanm</code> (more details below).  It's a better version of <code>cpan</code> that already comes with Strawberry Perl.  Open a Windows <code>cmd</code> shell (there's an example at the end of the <a href="http://www.youtube.com/watch?v=1RHYPM6e55o">video guide</a>), and Copy &amp; Paste or type:</li>
+    <li>Install <code>cpanm</code>.  Strawberry Perl already comes with the <code>cpan</code> command but <code>cpanm</code> is a much nicer to install modules from <a href="http://www.cpan.org/">CPAN</a>.  Open a Windows <code>cmd</code> shell (there's an example at the end of the <a href="http://www.youtube.com/watch?v=1RHYPM6e55o">video guide</a>), and Copy &amp; Paste or type:</li>
   </ul>
 
   <div class=code><pre><code>cpan App::cpanminus</code></pre></div>
@@ -53,7 +53,7 @@
     <pre><code>curl -kL http://install.perlbrew.pl | bash
 echo 'source ~/perl5/perlbrew/etc/bashrc' >> ~/.profile
 source ~/perl5/perlbrew/etc/bashrc
-perlbrew install -j 12 perl-5.16.2
+perlbrew install perl-5.16.2
 perlbrew switch perl-5.16.2
 perlbrew install-cpanm</code></pre></div>
 
@@ -69,7 +69,7 @@ perlbrew install-cpanm</code></pre></div>
     <pre><code>curl -kL http://install.perlbrew.pl | bash
 echo 'source ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc
 source ~/perl5/perlbrew/etc/bashrc
-perlbrew install -j 12 perl-5.16.2
+perlbrew install perl-5.16.2
 perlbrew switch perl-5.16.2
 perlbrew install-cpanm</code></pre></div>
 
