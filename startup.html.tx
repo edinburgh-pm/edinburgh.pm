@@ -52,8 +52,7 @@
     <pre><code>curl -kL http://install.perlbrew.pl | bash
 echo 'source ~/perl5/perlbrew/etc/bashrc' >> ~/.profile
 source ~/perl5/perlbrew/etc/bashrc
-perlbrew install perl-5.16.2
-perlbrew switch perl-5.16.2
+perlbrew install --switch stable
 perlbrew install-cpanm</code></pre></div>
 
   <p class=instructions><a href="#next">Start using Perl!</a></p>
@@ -68,8 +67,7 @@ perlbrew install-cpanm</code></pre></div>
     <pre><code>curl -kL http://install.perlbrew.pl | bash
 echo 'source ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc
 source ~/perl5/perlbrew/etc/bashrc
-perlbrew install perl-5.16.2
-perlbrew switch perl-5.16.2
+perlbrew install --switch stable
 perlbrew install-cpanm</code></pre></div>
 
   <p class=instructions><a href="#next">Start using Perl!</a></p>
