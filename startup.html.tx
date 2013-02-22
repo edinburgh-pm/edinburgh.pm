@@ -2,13 +2,13 @@
   <h2>Starting Modern Perl</h2>
 
   <h3>Synopsis</h3>
-  <p>The <b>"don't make me think"</b> version of getting a <i>modern</i> Perl enviornment running on your computer(s).</p>
-  <p>Seriously : it's quick, <i>easy</i> &amp; fun!</p>
+  <p>The <b>"don't make me think"</b> version of getting a <i>modern</i> Perl on your computer(s).</p>
+  <p>Quick, <i>easy</i> &amp; fun!</p>
 
   <h3>Audience</h3>
   <ul class=audience>
     <li><span>✓</span> You've <b>never</b> used Perl before &amp; know nothing about it.  Welcome!</li>
-    <li><span>✓</span> You haven't used Perl in <b><code>$years</code></b>.  Welcome back!  This is not your dad's Perl any more.</li>
+    <li><span>✓</span> You haven't used Perl in <b><code>$years</code></b>.  Welcome back!</li>
     <li><span>✓</span> You're just curious.</li>
   </ul>
 
@@ -18,7 +18,7 @@
   <ul class=non-deps>
     <li><span>x</span> You do <b>not</b> need <code>root</code>, or <code>sudo</code>.  If you don't know what those are, don't panic.  You don't need to know!</li>
     <li><span>x</span> You do <b>not</b> need Windows Administrator priviledges.</li>
-    <li><span>x</span> You do <b>not</b> need to know anything about Perl</li>
+    <li><span>x</span> You do <b>not</b> need to know anything about Perl.</li>
     <li><span>x</span> You do <b>not</b> need to know anything about installing software on your computer.  Really!</li>
   </ul>
 
@@ -26,7 +26,8 @@
 
   <h3>What will this do?</h3>
 
-  <p>It will install the <i>latest</i>, <b>stable</b>, production ready verion of <span class=tooltip title="Version 5.16.02, released 01 Nov * 2012 *">Perl</span> into your <i>home</i> directory.  It's just a directory.  You can just delete the directory (in your home folder) if you aren't 100% satisfied.  Really.</p>
+  <p>It will install the <i>latest</i>, <b>stable</b>, production ready verion of <span class=tooltip title="Version 5.16.02, released 01 Nov * 2012 *">Perl</span> into your <i>home</i> directory (or on Windows, a directory of your choosing).</p>
+  <p>It's just a directory.  You can just delete the directory if you aren't 100% satisfied.  Really.</p>
 
   <h3>Let's go!</h3>
 
@@ -35,10 +36,8 @@
   <h4><a name=windows>Windows</a></h4>
   <ul>
     <li>Download and install <a href="http://strawberryperl.com/">Strawberry Perl</a>.  There is a <a href="http://www.youtube.com/watch?v=1RHYPM6e55o">video guide</a> if you want to follow along.</li>
-    <li>That's it.  Really!</li>
     <li>Install <code>cpanm</code>.  Strawberry Perl already comes with the <code>cpan</code> command but <code>cpanm</code> is a much nicer to install modules from <a href="http://www.cpan.org/">CPAN</a>.  Open a Windows <code>cmd</code> shell (there's an example at the end of the <a href="http://www.youtube.com/watch?v=1RHYPM6e55o">video guide</a>), and Copy &amp; Paste or type:</li>
   </ul>
-
   <div class=code><pre><code>cpan App::cpanminus</code></pre></div>
 
   <p class=instructions><a href="#next">Start using Perl!</a></p>
@@ -46,7 +45,7 @@
   <h4><a name=mac>Mac OS</a></h4>
     <ol>
       <li>Open up a <a href="http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/">Terminal</a> window.</li>
-      <li>Copy &amp; Paste (or type) the following commands, one line at a time, followed by <code>[return]</code> or <code>[enter]</code> key on your keyboard.  There is a <a href="http://youtube.com/">video tutorial [todo]</a>.
+      <li>Copy &amp; Paste (or type) the following commands, one line at a time, followed by <code>[return]</code> or <code>[enter]</code> key on your keyboard.  There is a <strike><a href="http://youtube.com/">video tutorial [todo]</a></strike>.
       </li>
     </ol>
     <div class=code>
