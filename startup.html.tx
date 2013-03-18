@@ -87,7 +87,11 @@ https://github.com/gugod/App-perlbrew/pull/275
 <p>For example, if you are interested in building web apps you will want to check out <a href="http://mojolicio.us/">Mojolicious</a>.  Just type this into your Terminal window.</p>
 <div class=code><pre><code>cpanm Mojolicious</code></pre></div>
 
-<h4></h4>
+<h4>Upgrading</h4>
+
+<p><a href="http://www.modernperlbooks.com/mt/2013/03/upgrade-in-place-with-perlbrew.html">via chromatic</a></p>
+<p><pre><code>$ perlbrew upgrade-perl</code></pre></p>
+
 <h4></h4>
 <h4></h4>
 <h4></h4>
