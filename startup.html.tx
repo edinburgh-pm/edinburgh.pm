@@ -58,6 +58,7 @@ perlbrew install-cpanm</code></pre></div>
   <p class=instructions><a href="#next">Start using Perl!</a></p>
 
   <h4><a name=nix>Linux / Unix</a></h4>
+    <p>Dependency : you'll neen the <code>build-essential</code> package on Debian/Ubuntu, or it's equivalent to ensure you have <code>make</code>.
     <ol>
       <li>Open up a <a href="http://www.youtube.com/watch?v=WY-RMU2p9hU">Terminal</a> window.</li>
       <li>Copy &amp; Paste (or type) the following commands, one line at a time, followed by <code>[return]</code> or <code>[enter]</code> key on your keyboard.  There is a <a href="http://youtube.com/">video tutorial [todo]</a>.
