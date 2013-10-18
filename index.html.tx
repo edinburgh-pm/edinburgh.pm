@@ -1,12 +1,14 @@
 [% WRAPPER "_page.tt" WITH title = 'Edinburgh Perl Mongers' %]
   <h2>Edinburgh Perl Mongers</h2>
   <p>
-    Mostly an excuse to meet up once a month for a <code>$beverage</code> and chat amongst like minded individuals.  The conversation covers a wide range of subjects, technical and otherwise, so anyone is welcome who knows their <code>$foo</code> from their <code>#include</code>.
+    Mostly an excuse to meet up once a month for a <code>$beverage</code> and chat.  Conversations cover a wide range of subjects, technical and otherwise, so anyone is welcome regardless of accent, color, creed, education, gender, or anything else.
+  </p>
+    <p>
+    Established in July 1999, we're a part of the global <a href="http://www.pm.org/">Perl Monger</a> organisation but we're interested in lots of different languages, tech and topics.
   </p>
   <p>
-    Established in July 1999, we're a part of the global <a href="http://www.pm.org/">Perl Monger</a> organisation.
+    We don't care if you know Perl.  There are plenty things to chat about. The only rule is: <b>be chill</b>.
   </p>
-
   <h2>Events</h2>
   <ul>
     <li><b>Regular social meeting:</b> 4th Thursday of the month. From 6:30pm at <a href="http://www.cumberlandbar.co.uk/">Cumberland Bar</a>.</li>
