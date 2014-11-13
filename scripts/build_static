@@ -17,8 +17,9 @@ use FindBin;
 
 my $dir = dir($ARGV[0] || "$FindBin::Bin/../");
 my $tx  = Text::Xslate->new(
-    syntax => 'TTerse',
-    path   => ['/', $dir],
+    input_layer => ':utf8',
+    syntax      => 'TTerse',
+    path        => ['/', $dir],
 );
 supper($dir);
 
@@ -42,12 +43,7 @@ sub supper {
         $output =~ s/\.tx\z//;
         say $output;
 
-        # Do a little dance to avoid wide-character-in-print errors
-        # May be fixed in a newer File::Slurp
-        # https://rt.cpan.org/Public/Bug/Display.html?id=34444
         my $html = $tx->render($child->resolve->stringify, {});
-        utf8::encode($html);
-
         write_file $output, { binmode => ':utf8' }, $html;
     }
 }

@@ -42,7 +42,7 @@
 
 <p>
 This software development reference book is supposedly aimed at the
-experienced developer. The authors aim was to cover practical app
+experienced developer. The authors’ aim was to cover practical app
 development using several important topics in depth, such as; basic
 architectural components, the app lifecycle, setting up and debugging
 an Android project, UI, Intents, Location-based services, Persistence

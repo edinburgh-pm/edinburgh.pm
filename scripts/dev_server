@@ -10,8 +10,9 @@ use Text::Xslate;
 
 my $root = file(__FILE__)->dir->parent;
 my $tx   = Text::Xslate->new(
-    syntax => 'TTerse',
-    path   => ['/', $root],
+    input_layer => ':utf8',
+    syntax      => 'TTerse',
+    path        => ['/', $root],
 );
 
 my $file_app = Plack::App::File->new(root => $root)->to_app;
