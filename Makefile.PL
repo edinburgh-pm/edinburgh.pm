@@ -8,7 +8,7 @@ WriteMakefile(
         'autodie'          => 0,
         'common::sense'    => 0,
         'Encode'           => 0,
-        'File::Slurp'      => 0,
+        'File::Slurp'      => 9999.14,
         'Path::Class'      => 0,
         'Plack'            => 0,
         'Plack::App::File' => 0,

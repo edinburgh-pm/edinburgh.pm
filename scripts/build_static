@@ -12,7 +12,7 @@ use common::sense;
 use autodie;
 use Text::Xslate;
 use Path::Class qw<dir>;
-use File::Slurp qw<write_file>;
+use File::Slurp 9999.14 qw<write_file>;
 use FindBin;
 
 my $dir = dir($ARGV[0] || "$FindBin::Bin/../");
